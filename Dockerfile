@@ -1,6 +1,6 @@
 FROM mangar/jekyll:1.0
 
-MAINTAINER Marcio Mangar "marcio.mangar@gmail.com"
+MAINTAINER Oscar Medina "me@sharepointoscar.com"
 
 RUN gem install jekyll -v 3.1.6
 RUN gem install bundler
