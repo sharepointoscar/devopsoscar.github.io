@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SharePointOscar</title>
+	<atom:link href="http://www.sharepointoscar.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.sharepointoscar.com</link>
+	<description></description>
+	<lastBuildDate>Sun, 07 Oct 2012 05:16:18 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<item>
+		<title>Add The SharePoint 2013 Geolocation Column to a Content Type</title>
+		<link>http://www.sharepointoscar.com/blog/2012/10/07/add-the-sharepoint-2013-geolocation-column-to-a-content-type/</link>
+		<comments>http://www.sharepointoscar.com/blog/2012/10/07/add-the-sharepoint-2013-geolocation-column-to-a-content-type/#comments</comments>
+		<pubDate>Sun, 07 Oct 2012 05:16:18 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://www.sharepointoscar.com/?p=966</guid>
+		<description><![CDATA[TweetQuick Tip &#8211; The PowerShell code below adds it as a Site Column, once you do that  navigate to your custom Content Type and add it from existing site columns. Cheers, Oscar Add-PSSnapin Microsoft.SharePoint.Powershell -ErrorAction SilentlyContinue $fieldXml = &#8220;&#60;Field Type=&#8217;Geolocation&#8217; DisplayName=&#8217;My Location&#8217; /&#62;&#8221; $web = Get-SPWeb $webUrl $fieldName = $web.Fields.AddFieldAsXml($fieldXml) $web.Update()]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2012%2F10%2F07%2Fadd-the-sharepoint-2013-geolocation-column-to-a-content-type%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2012/10/07/add-the-sharepoint-2013-geolocation-column-to-a-content-type/" data-count="horizontal" data-via="SharePointOscar" data-text="Add The SharePoint 2013 Geolocation Column to a Content Type">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2012/10/07/add-the-sharepoint-2013-geolocation-column-to-a-content-type/" data-counter="right"></script></span></div><p>Quick Tip &#8211; The PowerShell code below adds it as a <strong>Site Column,</strong> once you do that  navigate to your custom Content Type and<strong> add it from existing site columns</strong>.</p>
+<p>Cheers,<br />
+Oscar</p>
+<p>Add-PSSnapin Microsoft.SharePoint.Powershell -ErrorAction SilentlyContinue</p>
+<p>$fieldXml = &#8220;&lt;Field Type=&#8217;Geolocation&#8217; DisplayName=&#8217;My Location&#8217; /&gt;&#8221;</p>
+<p>$web = Get-SPWeb $webUrl<br />
+$fieldName = $web.Fields.AddFieldAsXml($fieldXml)<br />
+$web.Update()</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2012/10/07/add-the-sharepoint-2013-geolocation-column-to-a-content-type/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SharePoint 2010 &#8211; Integrating Twitter Bootstrap and jsRender Part 1</title>
+		<link>http://www.sharepointoscar.com/blog/2012/04/10/sharepoint-2010-integrating-twitter-bootstrap-and-jsrender/</link>
+		<comments>http://www.sharepointoscar.com/blog/2012/04/10/sharepoint-2010-integrating-twitter-bootstrap-and-jsrender/#comments</comments>
+		<pubDate>Tue, 10 Apr 2012 05:35:46 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://www.sharepointoscar.com/?p=923</guid>
+		<description><![CDATA[TweetLately I&#8217;ve been working with various open source frameworks and integrating them into SharePoint to improve the UI and overall user experience. Two of  these awesome frameworks are Twitter Bootstrap created by the guys (@fat and @mdo) at Twitter and jsRender by BorisMoore and can be found at https://github.com/BorisMoore/jsrender &#8220;Optimized for high-performance pure string-based rendering, without DOM [...]]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2012%2F04%2F10%2Fsharepoint-2010-integrating-twitter-bootstrap-and-jsrender%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2012/04/10/sharepoint-2010-integrating-twitter-bootstrap-and-jsrender/" data-count="horizontal" data-via="SharePointOscar" data-text="SharePoint 2010 – Integrating Twitter Bootstrap and jsRender Part 1">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2012/04/10/sharepoint-2010-integrating-twitter-bootstrap-and-jsrender/" data-counter="right"></script></span></div><p>Lately I&#8217;ve been working with various open source frameworks and integrating them into SharePoint to improve the UI and overall user experience.</p>
+<p>Two of  these awesome frameworks are <a title="Bootstrap" href="http://twitter.github.com/bootstrap/index.html" target="_blank">Twitter Bootstrap</a> created by the guys (<a href="http://twitter.com/fat">@fat</a> and <a href="http://twitter.com/mdo">@mdo</a>) at Twitter and jsRender by <a title="Boris Moore" href="https://github.com/BorisMoore" target="_blank">BorisMoore</a> and can be found at https://github.com/BorisMoore/jsrender</p>
+<blockquote><p><em>&#8220;Optimized for high-performance pure string-based rendering, without DOM or jQuery dependency.&#8221;</em></p>
+<p>-Boris Moore</p></blockquote>
+<p>Some of the key elements I am using are:</p>
+<ul>
+<li>Fluid Grid System</li>
+<li>jQuery Plugins such as Collapse, Modal and Typeahead to name a few.</li>
+<li>jsRender</li>
+</ul>
+<p>As we all know, there is always room to improve on areas SharePoint falls behind or lacks richness in terms of functionality.   One of the simple enhancements one of my projects called for is the ability to search for people and have the much coveted (ok not all true) intellisense showing matches on a dropdown list.</p>
+<h2><strong>Integrating Bootstrap On The Master Page</strong></h2>
+<p>The first thing you want to do is include the framework dependencies such as js and CSS files.  Depending on the type of project, I either deploy as a Solution or simply upload to a place on the root of my Site Collection.</p>
+<p>My Master Page top section looks something like this -</p>
+<p>&nbsp;</p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2012/04/bootstrapInMasterPage.png" rel="prettyPhoto[923]"><img class="alignleft size-full wp-image-958" title="bootstrapInMasterPage" src="http://www.sharepointoscar.com/wp-content/uploads/2012/04/bootstrapInMasterPage.png" alt="" width="727" height="433" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Once this is in place, one can use the various plugins and UI elements as needed across the site.</p>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2>Using Typeahead  For Contact Search Autocomplete</h2>
+<p>These are the steps I took to quickly make use of the jQuery Typeahead plugin.</p>
+<ul>
+<li> Declare a search box &lt;input type=&#8221;text&#8221; id=&#8221;PeopleSearchBox&#8221;&gt;</li>
+<li>Use whatever client side method you are used to to call the SharePoint Search and assign the results to an Array.  In my case I called it Person[]</li>
+<li>On the top of your page, inside a script tag, initialize the Typeahead plugin and wire it up to the search box as shown below.</li>
+</ul>
+<h3> <a href="http://www.sharepointoscar.com/wp-content/uploads/2012/04/InitializeTypeahead.jpg" rel="prettyPhoto[923]"><img class="alignleft size-full wp-image-956" title="InitializeTypeahead" src="http://www.sharepointoscar.com/wp-content/uploads/2012/04/InitializeTypeahead.jpg" alt="" width="407" height="140" /></a></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<p>&nbsp;</p>
+<h2>The People Search Autocomplete using the Bootstrap Typeahead Plugin</h2>
+<p>When a user starts typing, the search function makes a call with the keyword typed in the search box.  As you can see, I have a function that queries SharePoint and handles populating my Person Array.</p>
+<p>&nbsp;</p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2012/04/BootstrapTypeahead.jpg" rel="prettyPhoto[923]"><img class="alignleft size-full wp-image-955" title="BootstrapTypeahead" src="http://www.sharepointoscar.com/wp-content/uploads/2012/04/BootstrapTypeahead.jpg" alt="" width="286" height="522" /></a></p>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2> Using jsRender for Display Templates</h2>
+<p>jsRender is extremely easy to use, and super powerful.  I am using it to create rendering templates or &#8220;Display Templates&#8221; of results from various data calls.  Such is the case for a Colleague Widget I created as well.</p>
+<p>You can use jsRender and pass the Array of Objects and specifying the Display Template as such.</p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2012/04/ColleaguejsRenderingDisplayTemplate.png" rel="prettyPhoto[923]"><img class="alignleft size-full wp-image-959" title="ColleaguejsRenderingDisplayTemplate" src="http://www.sharepointoscar.com/wp-content/uploads/2012/04/ColleaguejsRenderingDisplayTemplate.png" alt="" width="441" height="67" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2012/04/jsRenderTemplates.png" rel="prettyPhoto[923]"><img class="alignleft size-full wp-image-960" title="jsRenderTemplates" src="http://www.sharepointoscar.com/wp-content/uploads/2012/04/jsRenderTemplates.png" alt="" width="826" height="235" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>On my next post I will demonstrate how to use the Grid System from Bootstrap within a Master Page and Page Layout!</p>
+<p>Enjoy!<br />
+Oscar</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2012/04/10/sharepoint-2010-integrating-twitter-bootstrap-and-jsrender/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Development of Mobile Apps using Adobe Flex &#8211; Similarities to Windows Phone Development</title>
+		<link>http://www.sharepointoscar.com/blog/2012/03/06/development-of-mobile-apps-using-adobe-flex-similarities-to-windows-phone-development/</link>
+		<comments>http://www.sharepointoscar.com/blog/2012/03/06/development-of-mobile-apps-using-adobe-flex-similarities-to-windows-phone-development/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 20:57:25 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Adobe Flex]]></category>
+		<category><![CDATA[Mobile App Development]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://www.sharepointoscar.com/?p=893</guid>
+		<description><![CDATA[TweetAfter working on my Windows Phone App, I decided I needed to target other platforms.  The most obvious one being iOS which is in the works, but also Android why not?  Doing a little research I stumbled upon the Adobe Flex Builder 4.6 (ok it was actually a recommendation from a good friend of mine @jonathanhartsf who [...]]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2012%2F03%2F06%2Fdevelopment-of-mobile-apps-using-adobe-flex-similarities-to-windows-phone-development%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2012/03/06/development-of-mobile-apps-using-adobe-flex-similarities-to-windows-phone-development/" data-count="horizontal" data-via="SharePointOscar" data-text="Development of Mobile Apps using Adobe Flex – Similarities to Windows Phone Development">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2012/03/06/development-of-mobile-apps-using-adobe-flex-similarities-to-windows-phone-development/" data-counter="right"></script></span></div><p>After working on my Windows Phone App, I decided I needed to target other platforms.  The most obvious one being iOS which is in the works, but also Android why not?  Doing a little research I stumbled upon the Adobe Flex Builder 4.6 (ok it was actually a recommendation from a good friend of mine <a href="https://twitter.com/#!/jonathanhartsf"><a href="http://twitter.com/jonathanhartsf">@jonathanhartsf</a></a> who is all about social game development at <a title="Idle Games" href="https://twitter.com/#!/idlegames" target="_blank"><a href="http://twitter.com/IdleGames">@IdleGames</a></a>).</p>
+<p>Anyway, while setting up my project and getting acquainted with the frameworks and IDE, I realized there are lots and lots of similarities between developing Windows Phone Apps using VS2010 and XAML and Flex 4.6 using MXML.  Naturally you can follow the MVC pattern using adobe Flex as well.  Anand has a great list of these frameworks and quick reviews  at http://www.anandvardhan.com/2008/11/13/popular-flex-frameworks</p>
+<p>Here are some observations and similarities:</p>
+<p>&nbsp;</p>
+<h2>Data Access</h2>
+<p>There are various data sources you can tap into &#8211; HTTPService, Web Services, Cold Fusion, PHP, ASP.NET, MySQL, SQL Server  and more.  You can visually create connections to said services and you are done!  Or, you can use the declarative language + script tags to wire up handlers and manipulate the data however you wish and easily bind to various components such as Lists, Grids etc.</p>
+<h2>Declarative language (XAML and MXML)</h2>
+<p>It is quite nice to be able to declare an http service object in this manner</p>
+<p>&lt;mx:HTTPService id=&#8221;myHTTPRequest&#8221; url=&#8221;http://mysite/myproj/requestsomething.aspx&#8221; useProxy=&#8221;false&#8221; method=&#8221;POST&#8221;&gt;<br />
+&lt;mx:request xmlns=&#8221;"&gt;<br />
+&lt;username&gt;{username.text}&lt;/username&gt;<br />
+&lt;emailaddress&gt;{emailaddress.text}&lt;/emailaddress&gt;<br />
+&lt;/mx:request&gt;<br />
+&lt;/mx:HTTPService&gt;</p>
+<h2>Application Views</h2>
+<p>Much like the Windows Phone Apps, you can create various Views or App Tabs.  Once created, you can use <strong>&lt;fx:Script</strong>&gt; tags to write code within the view.  In addition, you can declare various non-visual objects using the <strong>&lt;fx:Declarations&gt;</strong> tag.</p>
+<h2>Application Templates (think XAML Templates)</h2>
+<p>As I was developing my WP7 App (Windows Phone), I realized that is super convenient to render data based on Templates and reuse them across the App.  This is also possible using Adobe Flex using itemRenderer  (http://www.adobe.com/devnet/flex/videotraining/exercises/ex4_03.html), and so having experience doing this on VS2010 using XAML, it was easy to implement on Flex.</p>
+<p>&nbsp;</p>
+<p>There is a whole lot more I am learning and will share in the near future.</p>
+<p>Thanks,<br />
+Oscar</p>
+<p><img src='http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/flash-builder/images/fb-premium-marquee-709x260.jpg'></p>]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2012/03/06/development-of-mobile-apps-using-adobe-flex-similarities-to-windows-phone-development/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>A little fun flying</title>
+		<link>http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/</link>
+		<comments>http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/#comments</comments>
+		<pubDate>Thu, 26 Jan 2012 22:32:10 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+
+		<guid isPermaLink="false">http://www.sharepointoscar.com/?p=20</guid>
+		<description><![CDATA[TweetA good friend of mine visited from DC, we decided to meet up in Vegas and among other things enjoy aerobatics. Now back to work]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2012%2F01%2F26%2Fa-little-fun-fyling%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/" data-count="horizontal" data-via="SharePointOscar" data-text="A little fun flying">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/" data-counter="right"></script></span></div><p>A good friend of mine visited from DC, we decided to meet up in Vegas and among other things enjoy aerobatics.</p>
+<p>Now back to work <img src='http://www.sharepointoscar.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+
+<a href='http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/_mg_0074/' title='_MG_0074'><img width="150" height="150" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/MG_0074-150x150.jpg" class="attachment-thumbnail" alt="_MG_0074" title="_MG_0074" /></a>
+<a href='http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/_mg_0077/' title='_MG_0077'><img width="150" height="150" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/MG_0077-150x150.jpg" class="attachment-thumbnail" alt="_MG_0077" title="_MG_0077" /></a>
+<a href='http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/_mg_0121/' title='_MG_0121'><img width="150" height="150" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/MG_0121-150x150.jpg" class="attachment-thumbnail" alt="_MG_0121" title="_MG_0121" /></a>
+<a href='http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/_mg_0116/' title='_MG_0116'><img width="150" height="150" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/MG_0116-150x150.jpg" class="attachment-thumbnail" alt="_MG_0116" title="_MG_0116" /></a>
+
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2012/01/26/a-little-fun-fyling/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Holiday Skiing at Sugar Bowl</title>
+		<link>http://www.sharepointoscar.com/blog/2011/12/28/holiday-skiing-at-sugar-bowl/</link>
+		<comments>http://www.sharepointoscar.com/blog/2011/12/28/holiday-skiing-at-sugar-bowl/#comments</comments>
+		<pubDate>Wed, 28 Dec 2011 20:59:51 +0000</pubDate>
+		<dc:creator></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+
+		<guid isPermaLink="false">http://www.sharepointoscar.com/?p=841</guid>
+		<description><![CDATA[Tweet My wife and daughter very happy we made time this year despite the hectic Holiday party-mania]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2011%2F12%2F28%2Fholiday-skiing-at-sugar-bowl%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2011/12/28/holiday-skiing-at-sugar-bowl/" data-count="horizontal" data-via="SharePointOscar" data-text="Holiday Skiing at Sugar Bowl">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2011/12/28/holiday-skiing-at-sugar-bowl/" data-counter="right"></script></span></div><p><a href="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111228-131435.jpg" rel="prettyPhoto[841]"><img src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111228-131435.jpg" alt="20111228-131435.jpg" class="alignnone size-full" /></a></p>
+<p>My wife and daughter very happy we made time this year despite the hectic Holiday party-mania</p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111228-131753.jpg" rel="prettyPhoto[841]"><img src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111228-131753.jpg" alt="20111228-131753.jpg" class="alignnone size-full" /></a></p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111228-131811.jpg" rel="prettyPhoto[841]"><img src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111228-131811.jpg" alt="20111228-131811.jpg" class="alignnone size-full" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2011/12/28/holiday-skiing-at-sugar-bowl/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Merry Christmas from my daughter and me</title>
+		<link>http://www.sharepointoscar.com/blog/2011/12/25/merry-christmas-from-my-daughter-and-me/</link>
+		<comments>http://www.sharepointoscar.com/blog/2011/12/25/merry-christmas-from-my-daughter-and-me/#comments</comments>
+		<pubDate>Sun, 25 Dec 2011 19:26:22 +0000</pubDate>
+		<dc:creator></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Christmas 2011]]></category>
+
+		<guid isPermaLink="false">http://www.sharepointoscar.com/?p=696</guid>
+		<description><![CDATA[TweetMy daughter and I created these two greeting cards on her new arts and crafts table.  Merry Christmas and Happy New Year!]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2011%2F12%2F25%2Fmerry-christmas-from-my-daughter-and-me%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2011/12/25/merry-christmas-from-my-daughter-and-me/" data-count="horizontal" data-via="SharePointOscar" data-text="Merry Christmas from my daughter and me">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2011/12/25/merry-christmas-from-my-daughter-and-me/" data-counter="right"></script></span></div><p>My daughter and I created these two greeting cards on her new arts and crafts table.  Merry Christmas and Happy New Year!</p>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111225-114224.jpg" rel="prettyPhoto[696]"><img class="alignnone size-full" style="border-width: 3px; border-color: black; border-style: solid;" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/20111225-114224.jpg" alt="20111225-114224.jpg" width="640" height="480" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2011/12/25/merry-christmas-from-my-daughter-and-me/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Adding PerformancePoint Dashboard Designer Shortcut to a page.</title>
+		<link>http://www.sharepointoscar.com/blog/2011/10/25/adding-performancepoint-dashboard-designer-shortcut-to-a-page/</link>
+		<comments>http://www.sharepointoscar.com/blog/2011/10/25/adding-performancepoint-dashboard-designer-shortcut-to-a-page/#comments</comments>
+		<pubDate>Tue, 25 Oct 2011 00:30:20 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">/post/Adding-PerformancePoint-Dashboard-Designer-Shortcut-to-a-page.aspx</guid>
+		<description><![CDATA[TweetYou probably already know that branding the PerformancePoint Site is a good undertaking and you should consider doing it on your branding efforts.&#160; But what if you just need the shortcut to the PerformancePoint Dashboard Designer within a page or even your own design? Her is a quick tip, just drop this code into either [...]]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2011%2F10%2F25%2Fadding-performancepoint-dashboard-designer-shortcut-to-a-page%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2011/10/25/adding-performancepoint-dashboard-designer-shortcut-to-a-page/" data-count="horizontal" data-via="SharePointOscar" data-text="Adding PerformancePoint Dashboard Designer Shortcut to a page.">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2011/10/25/adding-performancepoint-dashboard-designer-shortcut-to-a-page/" data-counter="right"></script></span></div><p>You probably already know that branding the PerformancePoint Site is a good undertaking and you should consider doing it on your branding efforts.&nbsp; But what if you just need the shortcut to the PerformancePoint Dashboard Designer within a page or even your own design?</p>
+<p>Her is a quick tip, just drop this code into either a Layout Page or Master Page or Form WebPart:</p>
+<pre class="csharpcode"> &lt;script type=<span class="str">"text/javascript"</span>&gt;
+function ULSrFH(){var o=<span class="kwrd">new</span> Object;o.ULSTeamName=<span class="str">"PerformancePoint Monitoring Service"</span>;o.ULSFileName=<span class="str">"ppssample.aspx"</span>;<span class="kwrd">return</span> o;}
+    <span class="rem">// &lt;![CDATA[</span>
+    var navBarHelpOverrideKey = <span class="str">"WSSEndUser"</span>;
+    function OpenDD()
+    {ULSrFH:;
+      var designerRedirect = <span class="str">"_layouts/ppswebparts/designerredirect.aspx"</span>;
+      var siteCollection = <span class="str">"/"</span>;
+      var siteLocation = <span class="str">"/YOURSITENAME/"</span>;
+      var siteCollectionUrl = location.protocol + <span class="str">"//"</span> + location.host + siteCollection;
+      var siteLocationUrl = siteLocation.replace(siteCollection,<span class="str">""</span>);
+      designerRedirect = siteLocation + designerRedirect + <span class="str">"?SiteCollection="</span> + siteCollectionUrl + <span class="str">"&amp;SiteLocation="</span> + siteLocationUrl;
+      location.href = designerRedirect;
+    }
+    <span class="rem">// ]]&gt;</span>
+  &lt;/script&gt;
+
+&lt;button onclick=<span class="str">"javascript: OpenDD(); return false;"</span>&gt;
+                    &lt;img align=<span class="str">"absmiddle"</span> alt=<span class="str">"Run Dashboard Designer"</span> src=<span class="str">"/_layouts/images/PPSSiteTemplateRun.png"</span>
+                        height=<span class="str">"36px"</span> width=<span class="str">"36px"</span> /&gt;&amp;nbsp;&lt;span <span class="kwrd">class</span>=<span class="str">"ppsma-fpbbt"</span>&gt;Run Dashboard Designer&lt;/span&gt;
+                &lt;/button&gt;
+</pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+</p>
+<p>You can easily style the button etc.</p>
+<p>Enjoy,<br />Oscar</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2011/10/25/adding-performancepoint-dashboard-designer-shortcut-to-a-page/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>SharePoint 2010 &#8211; Set Regional Settings Time Zone using PowerShell when Provisioning a New Site</title>
+		<link>http://www.sharepointoscar.com/blog/2011/10/13/sharepoint-2010-set-regional-settings-time-zone-using-powershell-when-provisioning-a-new-site/</link>
+		<comments>http://www.sharepointoscar.com/blog/2011/10/13/sharepoint-2010-set-regional-settings-time-zone-using-powershell-when-provisioning-a-new-site/#comments</comments>
+		<pubDate>Thu, 13 Oct 2011 19:10:30 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">/post/SharePoint-2010-Set-Regional-Settings-Time-Zone-using-PowerShell-when-Provisioning-a-New-Site.aspx</guid>
+		<description><![CDATA[TweetAs you probably already know SharePoint 2010 has added functionality when dealing with multiple Time Zones.  There are two areas aside form the Web Application level where a user can set this preference.  The first is managed at the site level via the Site Settings &#62; Regional Settings page. The second is managed at the [...]]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2011%2F10%2F13%2Fsharepoint-2010-set-regional-settings-time-zone-using-powershell-when-provisioning-a-new-site%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2011/10/13/sharepoint-2010-set-regional-settings-time-zone-using-powershell-when-provisioning-a-new-site/" data-count="horizontal" data-via="SharePointOscar" data-text="SharePoint 2010 – Set Regional Settings Time Zone using PowerShell when Provisioning a New Site">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2011/10/13/sharepoint-2010-set-regional-settings-time-zone-using-powershell-when-provisioning-a-new-site/" data-counter="right"></script></span></div><p>As you probably already know SharePoint 2010 has added functionality when dealing with multiple Time Zones.  There are two areas aside form the Web Application level where a user can set this preference.  The first is managed at the site level via the <strong>Site Settings</strong> &gt; <strong>Regional Settings</strong> page.</p>
+<p>The second is managed at the user level via the <strong>My Regional Setting</strong>s page accessible via the User actions menu where a user can choose a Region other than the one configured on the Site as shown in figure 3.</p>
+<p><strong>FIGURE 3 – The User Settings menu</strong></p>
+<p><img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="image" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/image_thumb_25.png" alt="image" width="244" height="85" border="0" /></p>
+<p><strong>FIGURE 3 – The My Regional Settings Page</strong><br />
+<img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="image" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/image_thumb_26.png" alt="image" width="244" height="234" border="0" /></p>
+<p>So this is easily configured via the browser when you do not have a plethora of sites to provision, but  most projects I work on are fairly large &#8211; and many of these are regional implementations, so we typically have scripts to handle large intranet deployments.</p>
+<p>With PowerShell you can easily provision SharePoint sites programmatically and configure many of their properties!  One of the properties that we are setting for both MySites (via a provisioning receiver) and Location-based sites is the Regional Settings.</p>
+<p>Here is a code snippet that allows you to set the Time Zone when provisioning a sub-site based on the Time Zone ID desired.</p>
+<div class="csharpcode-wrapper">
+<pre id="codeSnippet" class="csharpcode">$web = New-SPWeb -url ($intraneturl + <span class="str">"/NewDehli"</span>) -name <span class="str">"New Dheli"</span>  -Template ($PubPortalGenericTemplate)
+$web.RegionalSettings.TimeZone.ID = 23 <span class="rem"># (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi </span>$web.Update()</pre>
+</div>
+<div class="csharpcode-wrapper">Enjoy,<br />
+Oscar</div>
+<div class="csharpcode-wrapper"></div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2011/10/13/sharepoint-2010-set-regional-settings-time-zone-using-powershell-when-provisioning-a-new-site/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Access SharePoint Object Properties Declaratively in your User Control</title>
+		<link>http://www.sharepointoscar.com/blog/2011/10/12/access-sharepoint-object-properties-declaratively-in-your-user-control/</link>
+		<comments>http://www.sharepointoscar.com/blog/2011/10/12/access-sharepoint-object-properties-declaratively-in-your-user-control/#comments</comments>
+		<pubDate>Wed, 12 Oct 2011 21:09:05 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[SharePoint 2010 Object Model]]></category>
+
+		<guid isPermaLink="false">/post/Access-SharePoint-Object-Properties-Declaratively-in-your-User-Control.aspx</guid>
+		<description><![CDATA[TweetThis short post really isn’t anything new as it relates to typical .NET core development.  But I think at times while working on SharePoint projects we forget those same techniques apply. Prime example is using the DataItem object properties declaratively rather than wiring to the OnRowDataBound Handler.  And yes, there are times when you must [...]]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2011%2F10%2F12%2Faccess-sharepoint-object-properties-declaratively-in-your-user-control%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2011/10/12/access-sharepoint-object-properties-declaratively-in-your-user-control/" data-count="horizontal" data-via="SharePointOscar" data-text="Access SharePoint Object Properties Declaratively in your User Control">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2011/10/12/access-sharepoint-object-properties-declaratively-in-your-user-control/" data-counter="right"></script></span></div><p>This short post really isn’t anything new as it relates to typical .NET core development.  But I think at times while working on SharePoint projects we forget those same techniques apply.</p>
+<p>Prime example is using the <strong>DataItem</strong> object properties declaratively rather than wiring to the <strong>OnRowDataBound</strong> Handler.  And yes, there are times when you must wire up to that handler.</p>
+<p><strong>EXAMPLE: Declaratively access SPListItem Properties within User Control<br />
+</strong>My User Control needs to display various metadata of my SPListItem (DataItem).  This is how I simply did in a declarative manner.</p>
+<div class="csharpcode"></div>
+<p><a href="http://www.sharepointoscar.com/wp-content/uploads/2011/12/image_22.png" rel="prettyPhoto[707]"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-style: initial; border-color: initial; border-width: 0px;" title="image" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/image_thumb_22.png" alt="image" width="644" height="163" border="0" /></a></p>
+<p>Notice the Title ItemTemplate Column – I dynamically build a link which opens the Modal Dialog via a built in function.</p>
+<p>The SPListItem contains the ParentList Property and that itself contains additional properties, so I just chain it as in <strong>ParentList.ParentWeb.Site.Url</strong> !</p>
+<p>&nbsp;</p>
+<p><span style="font-size: medium;">And The Outcome…</span></p>
+<p><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-style: initial; border-color: initial; border-width: 0px;" title="image" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/image_thumb_23.png" alt="image" width="644" height="133" border="0" /></p>
+<p>The Modal Dialog shows up like this when I click on the Title<br />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-style: initial; border-color: initial; border-width: 0px;" title="image" src="http://www.sharepointoscar.com/wp-content/uploads/2011/12/image_thumb_24.png" alt="image" width="593" height="484" border="0" /></p>
+<p>And that’s my contribution for today!</p>
+<p>Thanks,<br />
+Oscar</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2011/10/12/access-sharepoint-object-properties-declaratively-in-your-user-control/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Latest SharePoint 2010 Project</title>
+		<link>http://www.sharepointoscar.com/blog/2011/05/18/latest-sharepoint-2010-project/</link>
+		<comments>http://www.sharepointoscar.com/blog/2011/05/18/latest-sharepoint-2010-project/#comments</comments>
+		<pubDate>Wed, 18 May 2011 18:19:48 +0000</pubDate>
+		<dc:creator>SharePointOscar</dc:creator>
+				<category><![CDATA[SharePoint 2010]]></category>
+
+		<guid isPermaLink="false">/post/Latest-Project.aspx</guid>
+		<description><![CDATA[TweetI’ve been extremely focused on a major SharePoint 2010 global implementation and barely have time for anything else (except now only because I am a bit sick).&#160; The features we are implementing are very much needed and I believe many other companies will want to implement them as well.&#160; Think of NewsGator Social Sites minus [...]]]></description>
+			<content:encoded><![CDATA[
+				<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
+				<div class="mr_social_sharing_wrapper"><span class="mr_social_sharing"><iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.sharepointoscar.com%2Fblog%2F2011%2F05%2F18%2Flatest-sharepoint-2010-project%2F&amp;layout=button_count&amp;show_faces=false&amp;width=90px&amp;height=21px" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span><span class="mr_social_sharing"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.sharepointoscar.com/blog/2011/05/18/latest-sharepoint-2010-project/" data-count="horizontal" data-via="SharePointOscar" data-text="Latest SharePoint 2010 Project">Tweet</a></span><span class="mr_social_sharing"><script type="IN/Share" data-url="http://www.sharepointoscar.com/blog/2011/05/18/latest-sharepoint-2010-project/" data-counter="right"></script></span></div><p>I’ve been extremely focused on a major SharePoint 2010 global implementation and barely have time for anything else (except now only because I am a bit sick).&#160; The features we are implementing are very much needed and I believe many other companies will want to implement them as well.&#160; Think of NewsGator Social Sites minus the licensing cost <img src='http://www.sharepointoscar.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Hopefully soon I will be able to disclose more detail, but here is a list of high level features:</p>
+<ol>
+<li>News Subscription (corporate news, organizational news and much more)</li>
+<li>The concept of My Services which allow a user to see IT, Facilities etc based on his/her Location</li>
+<li>Location-based Sites (respect User Profile Properties)</li>
+<li>Custom Activity Feeds</li>
+<li>Custom MySite Pages with preconfigured custom WebParts and Navigation…</li>
+<li>Custom Site Templates (pre-configured Libraries, Pages and WebParts)</li>
+<li>Metadata Hub Syndication</li>
+<li>Custom Branding</li>
+</ol>
+<p>And much more.&#160; I will also be talking about specific business problems we addressed.</p>
+<p>Looking forward to sharing in the near future.   </p>
+<p>-Oscar</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.sharepointoscar.com/blog/2011/05/18/latest-sharepoint-2010-project/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
