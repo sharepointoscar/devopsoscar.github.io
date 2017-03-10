@@ -1,5 +1,6 @@
 ---
 title: Visualize My Expertise
+subtitle: Sometimes a graphic explains it well
 ---
 
 I'm coming up with a nice visual way to show them recruiters (or anyone else for that matter) the "broader than my shoulders" technical and consulting experience :)
