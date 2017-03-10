@@ -1,12 +1,18 @@
 ---
 layout: page
 title: Now
-subtitle: Want to know what I am doing now?
-bigimg: /img/gfheader.png
-
+subtitle: Want to know what I am doing now? 
+bigimg: 
+ - "/img/now_images/gfheader.png" : "I think in code sometimes"
+ - "/img/now_images/sup.jpg" : "Summer is around the corner, and can't wait to take my board out on the lake."
+ - "/img/now_images/s5.jpg" : "It's a beast!"
+ - "/img/now_images/park.jpg" : "Working on my steeze"
+ - "/img/now_images/art.jpg": "I love photography"
+ - "/img/now_images/bluetooth.jpg": "The Beast has bluetooth..."
+share-img: /img/now_images/gfheader.png
 ---
 
-This page is where I let you the reader know, what I am up to these days. You can always follow me on Twitter :)
+"What would you say ya do here?" -Bob Slydell (Office Space)
 
 
 ## Lots of skiing

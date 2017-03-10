@@ -29,7 +29,7 @@ author:
 footer-links-active:
   rss: false
   facebook: false
-  email: fal
+  email: false
   twitter: true
   google-plus: false
   github: true
