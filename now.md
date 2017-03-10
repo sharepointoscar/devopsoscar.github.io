@@ -3,6 +3,7 @@ layout: page
 title: Now
 subtitle: Want to know what I am doing now?
 bigimg: /img/gfheader.png
+
 ---
 
 This page is where I let you the reader know, what I am up to these days. You can always follow me on Twitter :)
