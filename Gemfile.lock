@@ -172,7 +172,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 106)
   jekyll-admin
+  jekyll-mentions
   jekyll-paginate
+  jemoji
 
 BUNDLED WITH
    1.14.5

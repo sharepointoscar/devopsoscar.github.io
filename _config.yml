@@ -8,6 +8,7 @@ navbar-links:
   Date.Now(): now
   Visualize My Experience: infographic
 avatar: "/img/avatar-icon.png"
+
 author:
   name: Oscar Medina
   email: youremail@domain.com
@@ -24,6 +25,7 @@ author:
   youtube: yourlink
   spotify: yourname
   telephone: yourphone
+
 footer-links-active:
   rss: false
   facebook: false
@@ -45,6 +47,7 @@ share-links-active:
   facebook: false
   google: false
   linkedin: true
+
 excerpt_length: 50
 title-separator: "-"
 timezone: America/Vancouver
@@ -54,6 +57,7 @@ permalink: "/:year-:month-:day-:title/"
 paginate: 5
 kramdown:
   input: GFM
+
 defaults:
 - scope:
     path: ''
@@ -127,3 +131,5 @@ prose:
         help: Check to publish post, uncheck to hide.
 gems:
 - jekyll-paginate
+- jekyll-mentions
+- jemoji
