@@ -10,7 +10,7 @@ Enter that thingy called ShareGate and the User Mappings feature, which is avail
 
 {% highlight PowerShell  %}
     <#
-        This script akes a csv file with user accounts and creates a properly formatted xml file for ShareGate User Mappings.
+        This script takes a csv file with user accounts and creates a properly formatted xml file for ShareGate User Mappings.
        
         Simply take the file and import it through the Migration GUI
 
