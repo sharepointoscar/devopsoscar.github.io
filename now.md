@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Now
-comments:true
+comments: true
 subtitle: Want to know what I am doing now? 
 bigimg:
  - "/img/now_images/holdtherock.png": "The Rock" 
