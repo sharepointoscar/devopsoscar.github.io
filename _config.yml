@@ -48,6 +48,14 @@ share-links-active:
   google: false
   linkedin: true
 
+
+# --- Misc --- #
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+disqus: "disqus_sharepointoscar"
+
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "UA-27950608-1"
+
 excerpt_length: 50
 title-separator: "-"
 timezone: America/Vancouver

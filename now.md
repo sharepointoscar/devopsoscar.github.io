@@ -24,7 +24,7 @@ share-img: /img/now_images/gfheader.png
 This season has been historic and I fully intend to enjoy it until the last minute, it looks like that would be July?
 
 ## Projects and more learning!
-I've been very busy helping a pharmaceutical client migrate from one Office 365 Tenant to another.  This involves careful planning, as some content will actually not go into SPO or other O356 workloads but non-Microsoft CMS systems.
+I've been very busy helping a pharmaceutical client migrate from one Office 365 Tenant to another.  This involves careful planning, as some content will actually not go into SPO or other O356 workloads, but rather non-Microsoft CMS systems.
 
 ### New Toy
 Just got my new Macbook Pro 2016, and did a nice clean setup of all my frameworks and apps using a single Brewfile.  If all shit goes downhill, I can just get the Brewfile from my git repo and execute it, boom!
