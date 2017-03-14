@@ -1,25 +1,26 @@
 ---
-id: 16418
 title: What I look forward to this week @MSIgnite
-date: 2015-05-02T20:38:36+00:00
+id: 16418
+date: '2015-05-02 13:38:36 -0700'
 author: SharePointOscar
 layout: post
 guid: http://www.sharepointoscar.com/?p=16418
-permalink: /2015/05/02/what-i-look-forward-to-this-week-msignite/
+permalink: "/2015/05/02/what-i-look-forward-to-this-week-msignite/"
 video_format_choose:
-  - youtube
+- youtube
 vc_teaser:
-  - 'a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}'
+- a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}
 qode_animate-page-title:
-  - 'no'
+- 'no'
 qode_show-sidebar:
-  - default
+- default
 qode_hide-featured-image:
-  - 'no'
-image: /wp-content/uploads/2015/05/microsoft_ignite_date.jpg
+- 'no'
+image: "/img/wp-content/uploads/2015/05/microsoft_ignite_date.jpg"
 categories:
-  - Uncategorized
+- Uncategorized
 ---
+
 As I make my way to the <a title="Ignite Conference" href="http://ignite.microsoft.com/" target="_blank">MSIgnite Conference</a>, I can&#8217;t help but think back at the many wonderful experiences I&#8217;ve had, the people I&#8217;ve met and remained friends with&#8230;
   
 This year however, feels different to me.  First, unlike many people attending who are being sponsored by their employers, I&#8217;ve invested in this event and paid for it all out of pocket (lord knows it is expensive).  Perhaps, this brings a different level of appreciation?  Possibly, but  that aside things still feel different for me.

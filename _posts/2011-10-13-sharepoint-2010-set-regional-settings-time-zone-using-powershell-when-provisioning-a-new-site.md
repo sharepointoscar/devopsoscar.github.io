@@ -10,7 +10,6 @@ categories:
   - PowerShell
   - SharePoint 2013
 ---
-<!-- Social Sharing Toolkit v2.0.4 | http://www.marijnrongen.com/wordpress-plugins/social_sharing_toolkit/ -->
 
 As you probably already know SharePoint 2010 has added functionality when dealing with multiple Time Zones.  There are two areas aside form the Web Application level where a user can set this preference.  The first is managed at the site level via the **Site Settings** > **Regional Settings** page.
 
@@ -22,23 +21,10 @@ With PowerShell you can easily provision SharePoint sites programmatically and c
 
 Here is a code snippet that allows you to set the Time Zone when provisioning a sub-site based on the Time Zone ID desired.
 
-<div class="csharpcode-wrapper">
-  <pre class="brush:ps">$web = New-SPWeb -url ($intraneturl + "/NewDehli") -name "New Dheli"  -Template ($PubPortalGenericTemplate) $web.RegionalSettings.TimeZone.ID = 23 # (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi $web.Update()</pre>
+{% highlight PowerShell  %}
+  $web = New-SPWeb -url ($intraneturl + "/NewDehli") -name "New Dheli"  -Template ($PubPortalGenericTemplate) $web.RegionalSettings.TimeZone.ID = 23 # (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi $web.Update()
+{% endhighlight %}
   
-  <p>
-    &nbsp;
-  </p>
-  
-  <pre class="csharpcode" id="codeSnippet"></pre>
-  
-  <p>
-    &nbsp;
-  </p>
-</div>
 
-<div class="csharpcode-wrapper">
+
   Enjoy,<br /> Oscar
-</div>
-
-<div class="csharpcode-wrapper">
-</div>
