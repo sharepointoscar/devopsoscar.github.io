@@ -5,7 +5,7 @@ title: Oscar's Personal Space
 description: Hacking away and documenting it along the way.
 navbar-links:
   About Me: aboutme
-  Date.Now(['activities']): now
+  Date.Now(): now
   Visualize My Experience: infographic
 avatar: "/img/sharepointoscar.jpg"
 
