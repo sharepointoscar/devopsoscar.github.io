@@ -5,9 +5,9 @@ title: Oscar's Personal Space
 description: Hacking away and documenting it along the way.
 navbar-links:
   About Me: aboutme
-  Date.Now(): now
+  Date.Now(['activities']): now
   Visualize My Experience: infographic
-avatar: "/img/avatar-icon.png"
+avatar: "/img/sharepointoscar.jpg"
 
 author:
   name: Oscar Medina

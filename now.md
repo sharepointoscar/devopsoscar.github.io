@@ -22,7 +22,6 @@ share-img: /img/now_images/gfheader.png
 ## Attending The Little Whale's 4th Birthday Bash
  Docker's HQ downtown SF
 ![Docker's 4th Birthday Bash](https://lh6.googleusercontent.com/fBp-2WerCvJj91m5-6GAQVaUHN23qKZ9KPgQYK-aKu1Bz-LePXjDevPsOCRFjVISXB89ydAYbLZujUGAmvcgD_YTLoNOlfYjS3rP91Mx1OmiY31iU-A73EyApmCC8nCmpFMoats)
-I've registered to attend the Docker Meetup, should be lots of fun!  You can register for the meetup [here](https://www.meetup.com/Docker-meetups/events/237509940)
 
 ## Lots of skiing
 
