@@ -6,6 +6,7 @@ description: Hacking away and documenting it along the way.
 navbar-links:
   About Me: aboutme
   Date.Now(): now
+  Le Blog: index
   Visualize My Experience: infographic
 avatar: "/img/sharepointoscar.jpg"
 
