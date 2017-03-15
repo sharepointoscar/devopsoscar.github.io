@@ -31,7 +31,7 @@ Typically, I work along C level execs to understand their drivers and gather the
 # So What Am I? #
 My role can be that of a Sr. Architect or Sr. Project Manager as well as hands-on lead Developer, mentor and coder at all levels.  
 
-This effectively means that while I can give a presentation to a large audience, I can also talk shop with enterprise architects and other IT Pros while working on cloud and infrastructure.  In addition, I can partner with developers and code modern apps all as per best practices and using agigle methodologies.
+This effectively means that while I can give a presentation to a large audience, I can also talk shop with enterprise architects and other IT Pros while working on cloud and infrastructure.  In addition, I can partner with developers and code modern apps all as per best practices and using agile methodologies.
 
 ### Any Given Day... ###
 
@@ -39,7 +39,7 @@ At any given time, you'll either find me authoring an architecture diagram, poli
 
 With that many years of experience I've gained a lot of knowledge with app development on NodeJS, .NET, iOS native apps using modern frameworks and toolchains (NodeJS, GruntJS, Gulp, Angular).  Writing PowerShell scripts to automate some tasks, or even Python scripts to call third party REST APIs or build my own REST APIs fast and as per best practices.
 
-Add to the mix, experience on two of the most popular enterprise clouds (AWS and Azure), leveraging their native services and advising customers on best practices for hybrid cloud environments, legacy application modernization and deployment to the cloud.  Some of which have regulatory compliance in the mix, and you get the point, they are complex.
+Add to the mix - experience on two of the most popular enterprise clouds (AWS and Azure), leveraging their native services and advising customers on best practices for hybrid cloud environments, legacy application modernization and deployment to the cloud.  Some of which have regulatory compliance in the mix, and you get the point, they are complex.
 
 # Publications #
 
@@ -47,19 +47,18 @@ I am the author of two books on the market which focus on Microsoft SharePoint d
 
  Co-author | Contributor
 ------------ | -------------
-[![Pro SharePoint 2013 - Branding and Responsive Web Development ](https://images-na.ssl-images-amazon.com/images/I/5106pYx-i2L._SX404_BO1,204,203,200_.jpg)](https://www.amazon.com/SharePoint-Branding-Responsive-Development-Experts/dp/1430250283/ref=sr_1_1?ie=UTF8&qid=1489543918&sr=8-1&keywords=web+development+responsive+design+sharepoint) | [![Social Computing with Microsoft SharePoint 2007: Implementing Applications for SharePoint to Enable Collaboration and Interaction in the Enterprise (Wrox Programmer to Programmer)](https://images-na.ssl-images-amazon.com/images/I/51QbHmkVzQL._SX394_BO1,204,203,200_.jpg)](https://www.amazon.com/Social-Computing-Microsoft-SharePoint-2007/dp/B003D3OH5U/ref=sr_1_10?ie=UTF8&qid=1489544832&sr=8-10&keywords=sharepoint+social) 
-    
+[![Pro SharePoint 2013 - Branding and Responsive Web Development ](https://images-na.ssl-images-amazon.com/images/I/5106pYx-i2L._SX404_BO1,204,203,200_.jpg)](https://www.amazon.com/SharePoint-Branding-Responsive-Development-Experts/dp/1430250283/ref=sr_1_1?ie=UTF8&qid=1489543918&sr=8-1&keywords=web+development+responsive+design+sharepoint) | [![Social Computing with Microsoft SharePoint 2007: Implementing Applications for SharePoint to Enable Collaboration and Interaction in the Enterprise (Wrox Programmer to Programmer)](https://images-na.ssl-images-amazon.com/images/I/51QbHmkVzQL._SX394_BO1,204,203,200_.jpg)](https://www.amazon.com/Social-Computing-Microsoft-SharePoint-2007/dp/B003D3OH5U/ref=sr_1_10?ie=UTF8&qid=1489544832&sr=8-10&keywords=sharepoint+social)
+
 
 
 # Open Source Projects #
 
 I am the author of the [MEANS](https://github.com/SharePointOscar/MEANS) boilerplate project on Github, which is a nicely structured project for building - you guessed it, modern apps with real-time sockets and uses MongoDB + ExpressJS + AngularJS + SailsJS.  It is great for single page application development!
 
-What else would you like to know?  Please contact me if you have any engagements that require a true expert in the field.
+What else would you like to know?  Please contact me (send me a DM via LinkedIn or Twitter) if you have any engagements that require a true expert in the field.
 
 Chat soon,
 {% highlight bash  %}
 bash-3.2$ whoami
 Oscar
 {% endhighlight%}
-

@@ -1,7 +1,7 @@
 
 
 function Person(first, last, age, gender, interests,skills) {
-  
+
   // property and method definitions
   this.age = age;
   this.first_name = first;
@@ -29,4 +29,3 @@ var _activities = ['skiing every weekend','chef cookbooks on my Macbook Pro','Je
 var oscar = new Person('Oscar', 'Medina', 21, 'male', _activities,_skills);
 
 console.log(oscar);
-
