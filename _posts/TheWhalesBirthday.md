@@ -45,10 +45,13 @@ The presentation started and @solomonstre and @Chanezon take the stage.  Anyone 
 In a nutshell, they were cognizant about the newbs vs. the veterans in the Docker community.  They provided insightful information that catered to both audiences, and above all kept it fun!
 
 I also had to remark how appropriate it was for @solomonstre to wear Dockers :)
-https://twitter.com/SharePointOscar/status/842171408826355713
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Is <a href="https://twitter.com/solomonstre">@solomonstre</a> wearing Dockers??  This ladies and gentlemen is fully intentional :) <a href="https://twitter.com/hashtag/dockerbday?src=hash">#dockerbday</a> <a href="https://twitter.com/hashtag/docker?src=hash">#docker</a> <a href="https://t.co/pS8f4EWOHm">pic.twitter.com/pS8f4EWOHm</a></p>&mdash; Oscar Medina (@SharePointOscar) <a href="https://twitter.com/SharePointOscar/status/842171408826355713">March 16, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 And of course @solomonstre later had a chance to catch up on the twitter thingy and replied with this
-https://twitter.com/solomonstre/status/842184552026066944
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/SharePointOscar">@SharePointOscar</a> THANK YOU, I told them someone would get it :)</p>&mdash; Solomon Hykes (@solomonstre) <a href="https://twitter.com/solomonstre/status/842184552026066944">March 16, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 After the presentation, the audience was divided into two.  One was for Developers, the other for DevOps folks.  It made total sense to me, as I can do both and appreciate the focus on each topic as there is tons to learn.
 
