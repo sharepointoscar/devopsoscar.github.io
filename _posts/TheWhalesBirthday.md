@@ -51,7 +51,7 @@ I also had to remark how appropriate it was for @solomonstre to wear Dockers :)
 
 And of course @solomonstre later had a chance to catch up on the twitter thingy and replied with this
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/SharePointOscar">@SharePointOscar</a> THANK YOU, I told them someone would get it :)</p>&mdash; Solomon Hykes (@solomonstre) <a href="https://twitter.com/solomonstre/status/842184552026066944">March 16, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 After the presentation, the audience was divided into two.  One was for Developers, the other for DevOps folks.  It made total sense to me, as I can do both and appreciate the focus on each topic as there is tons to learn.
 
