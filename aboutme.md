@@ -6,6 +6,7 @@ subtitle: A little bit about me...
 
 OK I'll be honest, it's not easy writing about oneself but I'll do my best.
 
+I am married to a scientist, she was in grad school when we met.  She runs her own lab, and writes grants to fund her research in molecular biology.  We now have a daughter, she is turning 12 this year, and she loves skiing.  She's won 3 medals this season as she is part of the Tahoe League.
 
 I have been in technology for over 17 years.  Remember when Netscape Enterprise Server was a big deal?  Yep, and how about Websphere App Server?  I worked at 2 startups back then ("the [dot-com bubble](https://en.wikipedia.org/wiki/Dot-com_bubble)").  One was a consumer credit reporting site [QSpace](https://www.crunchbase.com/organization/qspace) - I was their webmaster/developer running an e-commerce site built on UNIX/Java and using server-side JavaScript which was part of Netscape Enterprise Server, and a little XSL for rendering reports.
 
