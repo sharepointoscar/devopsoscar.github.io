@@ -16,7 +16,7 @@ The other startup I worked for was a former advisor to the producers of the movi
 
 Ok give up?  It was [Securant Technologies](https://www.crunchbase.com/organization/securant-technologies#/entity), which later got acquired by RSA Security, Inc.
 
-I worked side-by-side with the marketing and communciations organization to develop tools for data-mining, and managed variou web applications - all home-grown and written by me.
+I worked side-by-side with the marketing and communications organization to develop tools for data-mining, and managed various web applications - all home-grown and written by me.
 
 I might have dated myself, but don't be fooled I have great real-world experience with modern technologies in the areas of DevOps and Development (best of both worlds).
 
