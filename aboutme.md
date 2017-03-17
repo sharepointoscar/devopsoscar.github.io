@@ -21,7 +21,7 @@ I worked side-by-side with the marketing and communications organization to deve
 I might have dated myself, but don't be fooled I have great real-world experience with modern technologies in the areas of DevOps and Development (best of both worlds).
 
 ***
-Years later I joined Microsft as a consultant in the MCS (Microsoft Consulting Services group) I focused on helping enterprise level clients with two major clouds - Office 365 and all of its workloads, and Azure Cloud and all of its native servies.  Client engagements encompassed cloud architecture, integration of hybrid environments, deployments on SaaS, PaaS and IaaS.
+Years later I joined Microsft as a consultant in the MCS (Microsoft Consulting Services group) I focused on helping enterprise level clients with two major clouds - Office 365 and all of its workloads, and Azure Cloud and all of its native services.  Client engagements encompassed cloud architecture, integration of hybrid environments which included indentiy management and security components for deployments on SaaS, PaaS and IaaS.
 
 Most of my recent experience has been using Docker, Docker Cloud, Docker Hub and "Dockerizing" NodeJS apps and putting them through CI/CD using Jenkins, then deploying them to a given cloud on successful build!  And using all the other clouds the cool kids use, such as Digital Ocean, Heroku, Codeship etc.
 
@@ -32,7 +32,7 @@ Typically, I work along C level execs to understand their drivers and gather the
 # So What Am I? #
 My role can be that of a Sr. Architect or Sr. Project Manager as well as hands-on lead Developer, mentor and coder at all levels.  
 
-This effectively means that while I can give a presentation to a large audience, I can also talk shop with enterprise architects and other IT Pros while working on cloud and infrastructure.  In addition, I can partner with developers and code modern apps all as per best practices and using agile methodologies.
+This effectively means that while I can give a presentation to a large audience, I can also talk shop with enterprise architects and other IT Pros while working on cloud and on-premises infrastructure.  In addition, I can partner with developers and code modern apps all as per best practices and using agile methodologies.
 
 ### Any Given Day... ###
 
