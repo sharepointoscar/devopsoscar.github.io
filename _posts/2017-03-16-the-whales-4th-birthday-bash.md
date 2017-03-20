@@ -67,7 +67,7 @@ I gave him an overview of the recent stuff I've done at Microsoft and using dock
 
 Just a great guy, and man it just felt right to be there at that moment chatting with someone with similar background and as many years in the industry and yet focused on the future and what that may look like with Docker in the mix.
 
-One of those things we discuss was; what a SharePoint instance can be dockerized?  My mind started racing, thinking of the possibilities and I could not sleep last night just thinking of what the YAML definition for the compose file would look like :) Sick right??
+One of those things we discussed was the possibilities of a SharePoint farm being dockerized.  My mind started racing, thinking of the possibilities and I could not sleep last night just thinking of what the YAML definition for the compose file would look like :) Sick right??
 
 I'll be writing up a post just on that concept soon :)
 
