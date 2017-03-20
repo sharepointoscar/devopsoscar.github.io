@@ -8,4 +8,5 @@ group :jekyll_plugins do
 	gem 'jekyll-paginate'
   	gem 'jekyll-mentions'
   	gem 'jemoji'
+    gem 'jekyll-twitter-plugin'
 end

@@ -47,10 +47,10 @@ The presentation started and @solomonstre and @Chanezon take the stage.  Anyone 
 In a nutshell, they were cognizant about the newbs vs. the veterans in the Docker community.  They provided insightful information that catered to both audiences, and above all kept it fun!
 
 I also had to remark how appropriate it was for @solomonstre to wear Dockers :)
-https://twitter.com/SharePointOscar/status/842171408826355713
+{% twitter https://twitter.com/SharePointOscar/status/842171408826355713 %}
 
 And of course @solomonstre later had a chance to catch up on the twitter thingy and replied with this
-https://twitter.com/solomonstre/status/842184552026066944
+{% twitter https://twitter.com/solomonstre/status/842184552026066944 %}
 
 After the presentation, the audience was divided into two.  One was for Developers, the other for DevOps folks.  It made total sense to me, as I can do both and appreciate the focus on each topic as there is tons to learn.
 
