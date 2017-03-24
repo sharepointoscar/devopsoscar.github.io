@@ -1,10 +1,13 @@
 ---
+layout: post
 title: Celebrating The Little Whale's 4th Birthday
 author: SharePointOscar
-subtitle: Food, drinks, hands-on labs @ the DockerBday 4 - Docker HQ in SF
-layout: post
-image: https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/17350049_1602549316426495_5845814699322546187_o.jpg?oh=2617469c02e55a4e53e294d601733f65&oe=596CBF4C
-share-img: https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/17350049_1602549316426495_5845814699322546187_o.jpg?oh=2617469c02e55a4e53e294d601733f65&oe=596CBF4C
+subtitle: 'Food, drinks, hands-on labs @ the DockerBday 4 - Docker HQ in SF'
+image: >-
+  https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/17350049_1602549316426495_5845814699322546187_o.jpg?oh=2617469c02e55a4e53e294d601733f65&oe=596CBF4C
+share-img: >-
+  https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/17350049_1602549316426495_5845814699322546187_o.jpg?oh=2617469c02e55a4e53e294d601733f65&oe=596CBF4C
+published: true
 ---
 
 ## It was a typical day, so I thought...
@@ -47,10 +50,10 @@ The presentation started and @solomonstre and @Chanezon take the stage.  Anyone 
 In a nutshell, they were cognizant about the newbs vs. the veterans in the Docker community.  They provided insightful information that catered to both audiences, and above all kept it fun!
 
 I also had to remark how appropriate it was for @solomonstre to wear Dockers :)
-{% twitter https://twitter.com/SharePointOscar/status/842171408826355713 %}
+ https://twitter.com/SharePointOscar/status/842171408826355713
 
 And of course @solomonstre later had a chance to catch up on the twitter thingy and replied with this
-{% twitter https://twitter.com/solomonstre/status/842184552026066944 %}
+ https://twitter.com/solomonstre/status/842184552026066944
 
 After the presentation, the audience was divided into two.  One was for Developers, the other for DevOps folks.  It made total sense to me, as I can do both and appreciate the focus on each topic as there is tons to learn.
 
