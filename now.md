@@ -2,38 +2,40 @@
 layout: page
 title: Now
 comments: true
-subtitle: Want to know what I am doing now? 
+subtitle: Want to know what I am doing now?
 bigimg:
- - "/img/now_images/holdtherock.png": "The Rock" 
- - "/img/now_images/gfheader.png" : "I think in code sometimes, ok all the time!"
- - "/img/now_images/sup.png" : "Summer is around the corner, and can't wait to take my board out on the lake."
- - "/img/now_images/s5.jpg" : "It's a beast!"
- - "/img/now_images/msuping.jpg": "She's so fine!"
- - "/img/now_images/steeze.png" : "Working on my steeze"
- - "/img/now_images/art.jpg": "I love photography"
- - "/img/now_images/bluetooth.jpg": "The Beast has bluetooth..."
- - "/img/now_images/fivelakes.png": "Summer hikes with my girls"
+  - /img/now_images/holdtherock.png: The Rock
+  - /img/now_images/gfheader.png: 'I think in code sometimes, ok all the time!'
+  - /img/now_images/sup.png: >-
+      Summer is around the corner, and can't wait to take my board out on the
+      lake.
+  - /img/now_images/s5.jpg: It's a beast!
+  - /img/now_images/msuping.jpg: She's so fine!
+  - /img/now_images/steeze.png: Working on my steeze
+  - /img/now_images/art.jpg: I love photography
+  - /img/now_images/bluetooth.jpg: The Beast has bluetooth...
+  - /img/now_images/fivelakes.png: Summer hikes with my girls
 share-img: /img/now_images/gfheader.png
+published: true
 ---
 (This is a [now](http://nownownow.com/about) page, and if you have your own site, you should make one, too.)
 
-"What would you say ya do here?" -Bob Slydell (Office Space)
+ 
 
-## Attending The Little Whale's 4th Birthday Bash
- Docker's HQ downtown SF
-![Docker's 4th Birthday Bash](https://lh6.googleusercontent.com/fBp-2WerCvJj91m5-6GAQVaUHN23qKZ9KPgQYK-aKu1Bz-LePXjDevPsOCRFjVISXB89ydAYbLZujUGAmvcgD_YTLoNOlfYjS3rP91Mx1OmiY31iU-A73EyApmCC8nCmpFMoats)
+## My daughter's last race for the season
 
-## Lots of skiing
+Someone once said, all good things end.  And ski season is fairly close to ending (or not?).  My daugher had her last race last weekend and podiumed again.  I'm a very proud dad, as you probably can tell ;)
 
-This season has been historic and I fully intend to enjoy it until the last minute, it looks like that would be July?
+![Adriana Medaled Again](https://scontent.fsnc1-4.fna.fbcdn.net/v/t1.0-9/17362889_10212829359598850_6805280651450419424_n.jpg?oh=badb22afe592caed8bb0e2225d5ee07f&oe=595BD202)
 
-## Projects and more learning!
-I've been very busy helping a pharmaceutical client migrate from one Office 365 Tenant to another.  This involves careful planning, as some content will actually not go into SPO or other O356 workloads, but rather non-Microsoft CMS systems.
 
-### New Toy
-Just got my new Macbook Pro 2016, and did a nice clean setup of all my frameworks and apps using a single Brewfile.  If all shit goes downhill, I can just get the Brewfile from my git repo and execute it, boom!
+### Published an Atom Theme - Working on a VS Code one...
+Somehow I managed to publish an Atom theme, great learning experience by the way.  But I was driven to just give back to the community, so I came up with a theme.  The them is called Franken Berry - you know the cereal that we no longer can enjoy?  I loved that cereal when I was a kid, so thought yeah, let's do it!
 
-### My Journey in CI/CD with Jenkins and Chef Continues
-Most recently I've setup Jenkins CI for some NodeJS apps and my Pipeline actually builds Docker containers, man I love that whale!
+You can install the theme via Atom or using the following command
 
-This week I also joined the Learm [@Chef](https://twitter.com/chef) session, and was delighted to chat with [@momo_ops](https://twitter.com/momo_ops) about best practices and typical workflows amongst other things.  She's awesome! 
+{% highlight bash %}
+	apm install franken-berry-syntax
+{% endhighlight%}
+
+
