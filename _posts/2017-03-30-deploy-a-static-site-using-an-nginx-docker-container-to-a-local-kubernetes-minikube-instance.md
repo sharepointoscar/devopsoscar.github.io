@@ -6,6 +6,25 @@ title: >-
   Minikube instance
 subtitle: A simple scenario to get acquainted with Kubernetes
 ---
-## A New Post
+# Overview
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+# Getting Setup
+
+### Testing your setup
+
+### Using The Docker Hub Registry to pull images
+
+#### Add ImagePullSecrets to service account
+
+# Prepare Custom NGINX Image  
+
+### The Dockerfile
+
+# Create Service Via Kubernetes Dashboard
+
+# Access Your Site Via Browser
+
+
+
+
+
