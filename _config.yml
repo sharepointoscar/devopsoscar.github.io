@@ -1,4 +1,5 @@
 ---
+
 url: http://sharepointoscar.github.io
 baseurl: ''
 title: Oscar's Personal Space
@@ -56,6 +57,7 @@ disqus: "sharepointoscar"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-27950608-1"
+
 
 excerpt_length: 50
 title-separator: "-"
@@ -142,3 +144,4 @@ gems:
 - jekyll-paginate
 - jekyll-mentions
 - jemoji
+#- jekyll-crosspost-to-medium
