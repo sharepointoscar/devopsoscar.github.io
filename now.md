@@ -20,6 +20,15 @@ published: true
 ---
 (This is a [now](http://nownownow.com/about) page, and if you have your own site, you should make one, too.)
 
+![Going to DockerCon 2017](http://i.imgur.com/oZswIvd.jpg)
+
+## Last Minute Decision - Going to DockerCon 2017
+I've been pondering on this for a while, and finally decided to just go.  As an independent consultant is not always easy to have budget for these things but I believe is well worth the expense.
+
+I am excited to attend and meet various folks I've interacted with via various channels.
+
+
+
 ## Oh Hey! I published an Atom Theme - Working on a VS Code one...
 Somehow I managed to publish an Atom theme, great learning experience by the way.  But I was driven to just give back to the community, so I came up with a theme.  The them is called Franken Berry - you know the cereal that we no longer can enjoy?  I loved that cereal when I was a kid, so thought yeah, let's do it!
 
