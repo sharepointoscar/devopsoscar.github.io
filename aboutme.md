@@ -6,6 +6,11 @@ bigimg:
   - /img/platforms.png: I work on all platforms, yes I do ;)
 ---
 
+  >You might be inclined to think **'Helo'** is a typo above.  Well I'm delighted to tell you, it is not :)
+  It is an old mail server command and it is sent by a client to identify itself.  I hereby identify myself.
+  >
+  >-Oscar
+
 OK I'll be honest, it's not easy writing about oneself but I'll do my best.
 
 I am married to a scientist, she was in grad school when we met.  She runs her own lab, and writes grants to fund her research in molecular biology.  We now have a daughter, she is turning 12 this year, and she loves skiing.  She's won 3 medals this season as she is part of the Tahoe League.
