@@ -1,7 +1,9 @@
 ---
 layout: page
-title: About me
-subtitle: A little bit about me...
+title: Helo, I'm Oscar
+subtitle: A seasoned modern technical architect | developer | nice guy
+bigimg:
+  - /img/platforms.png: I work on all platforms, yes I do ;)
 ---
 
 OK I'll be honest, it's not easy writing about oneself but I'll do my best.

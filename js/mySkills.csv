@@ -1,0 +1,94 @@
+source,target,value
+Web Development,HTML,0
+Web Development,HTML5,0
+Web Development,CSS,0
+Web Development,SASS,0
+Identity Management,Azure Active Directory,2.5
+Identity Management,On-premises Active Directory,2.5
+Identity Management,Okta,2.5
+Search,Elasticsearch,2.5
+Search,SharePoint Search,2.5
+Search,Amazon Cloud Search,2.5
+Infrastructure,PaaS,2.5
+Infrastructure,IaaS,2.5
+Infrastructure,On-premises,2.5
+Infrastructure,Hybrid Infrastructure,2.5
+Templating Libraries,MustacheJS,2.5
+Templating Libraries,Jade,2.5
+Templating Libraries,ExpressJS,2.5
+Templating Libraries,UnderscoreJS,2.5
+UI Frameworks,Bootstrap,2.5
+UI Frameworks,Office UI Fabric,2.5
+Frameworks & Libraries,SailsJS,2.0
+Frameworks & Libraries,GruntJS,2.0
+Frameworks & Libraries,ExpressJS,2.0
+Frameworks & Libraries,AsyncJS,2.0
+Frameworks & Libraries,UnderscoreJS,2.0
+Languages & Scripting,Objective-C,2.0
+Languages & Scripting,XML,2.0
+Languages & Scripting,XSL,2.0
+Languages & Scripting,XAML,2.0
+Languages & Scripting,Javascript,2.0
+Languages & Scripting,Ruby,2.0
+Languages & Scripting,Python,2.0
+Languages & Scripting,PowerShell,2.0
+Languages & Scripting,SQL,2.0
+Languages & Scripting,Bash,2.0
+Languages & Scripting,C# .NET,2.0
+Languages & Scripting,ASP .NET,2.0
+Protocols,HTTPS,0
+Protocols,WebDAV,0
+Protocols,Oauth,0
+Protocols,SSH,0
+Protocols,SOAP,0
+Protocols,REST,0
+Protocols,JSON,0
+Automated Testing,Selenium,2.0
+Automated Testing,Mocha,2.0
+Automated Testing,Jasmine,2.0
+Automated Testing,Protractor,2.0
+Automated Testing,E2E,2.0
+Automated Testing,Unit Testing,2.0
+CI/CD,Codeship,0
+CI/CD,Jenkins,0
+CI/CD,Travis CI,0
+Microservices / Containers,Windows Containers,0
+Microservices / Containers,Docker,0
+Microservices / Containers,Docker Hub,0
+Microservices / Containers,Docker Cloud,0
+Microservices / Containers,Rancher,0
+Microservices / Containers,Linux,0
+Microservices / Containers,Kubernetes,0
+Microservices / Containers,Rancher,0
+Microservices / Containers,Minikube,0
+Virtualization,VirtualBox,0
+Virtualization,VMWare,0
+Virtualization,Hyper-V,0
+Virtualization,HyperKit (used by Docker for Mac),0
+Databases,MongoDB,2.5
+Databases,SQL Server,2.5
+Databases,Amazon RDS,2.5
+Databases,mySQL,2.5
+Databases,Azure SQL (managed cloud database service),2.5
+Platforms & Clouds,Azure,2.5
+Platforms & Clouds,Amazon AWS,2.5
+Platforms & Clouds,OS X,2.5
+Platforms & Clouds,Linux (various distributions i.e. Ubuntu, CentOS, Fedora),2.5
+Platforms & Clouds,iOS,2.5
+Platforms & Clouds,Windows Phone Development,2.5
+Platforms & Clouds,Apigee API Management,2.5
+Platforms & Clouds,3Scale API Management,2.5
+Creative & Design,Adobe Photoshop,2.5
+Creative & Design,Adobe Fireworks,2.5
+Creative & Design,Balsamiq Mockups,2.5
+Creative & Design,Sketch for Mac,2.5
+Creative & Design,Visio 2016 diagraming,2.5
+IDEs,Webstorm,2.5
+IDEs,Atom,2.5
+IDEs,Visual Studio Code for Mac,2.5
+IDEs,Visual Studio 2015,2.5
+IDEs,XCode for iPhone App dev,2.5
+Source Control,Github,2.5
+Source Control,Git,2.5
+Source Control,Team Foundation Server,2.5
+Source Control,Visual Source Safe,2.5

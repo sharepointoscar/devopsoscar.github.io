@@ -1,7 +1,10 @@
 {% if include.js.sri %}
   <script src="{{ include.js.href }}" integrity="{{ include.js.sri }}" crossorigin="anonymous"></script>
+  <!-- THE INCLUDE include.js.sri -->
 {% elsif include.js.href %}
+<!-- THE INCLUDE include.js.href -->
   <script src="{{ include.js.href }}"></script>
 {% else %}
+<!-- THE INCLUDE include.js -->
   <script src="{{ include.js }}"></script>
 {% endif %}

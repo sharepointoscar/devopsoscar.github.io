@@ -2,13 +2,15 @@
 
 url: http://sharepointoscar.github.io
 baseurl: ''
-title: Oscar's Personal Space
-description: Hacking away and documenting it along the way.
+title: Oscar Medina (Cloud Architect | Sr. Developer | Wears Many Hats)
+description: In love with Linux way before Microsoft...
 navbar-links:
   About Me: aboutme
-  Date.Now(): now
-  Le Blog: index
-  Visualize My Experience: infographic
+  What I am doing Now: now
+  Visualize My Experience:
+    - Skills By Tech: infographic
+    - Areas of Expertise: areasexpertise
+    - My Resume: resume
 avatar: "/img/sharepointoscar.jpg"
 
 author:

@@ -5,6 +5,16 @@ subtitle: Just another way to deploy a Dockerized app quickly...
 layout: post
 image: https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/17361795_1604034676277959_9035342015129433076_n.jpg?oh=85c21205d7bc009ee08cda62c5c0804b&oe=59256933
 share-img: https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/17361795_1604034676277959_9035342015129433076_n.jpg?oh=85c21205d7bc009ee08cda62c5c0804b&oe=59256933
+tags:
+- Azure
+- Azure Linux VMs
+- Docker
+- Docker machine
+- Docker Machine Azure Driver
+- NodeJS
+- SailsJS
+- PassportJS
+- Azure OAuth Authentication
 ---
 
 ![Azure Loves Docker](https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17358848_1604020692946024_1164554351393225723_o.jpg?oh=cdb5d7d6c3bd9ce8e20b019daa65d8f6&oe=596C6F8F)

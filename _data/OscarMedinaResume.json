@@ -1,0 +1,555 @@
+  {
+    "basics": {
+      "name": "Oscar Medina",
+      "label": "Author | Cloud & Dev/Ops Architect (Azure, AWS, Heroku, Docker, Codeship, Travis CI) | SharePoint & Office 365 Seasoned Consultant",
+      "picture": "https://pbs.twimg.com/profile_images/842022827456778240/GWi_bFD2_bigger.jpg",
+      "email": "me@sharepointoscar",
+      "phone": "",
+      "website": "http://sharepointoscar.com",
+      "summary": "Coming from Microsoft and being involved in the open source community, Oscar has a blend of skills on both Windows and Linux distros.  This includes architecting apps and solutions the Microsoft Stack or using modern open source frameworks and clouds",
+      "location": {
+        "address": "",
+        "postalCode": "CA 94549",
+        "city": "Lafayette",
+        "countryCode": "US",
+        "region": "California"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "sharepointoscar",
+          "url": "http://twitter.com/sharepointoscar"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "oscarmeding",
+          "url": "https://www.linkedin.com/in/oscarmedina"
+        },
+        {
+          "network": "Github",
+          "username": "sharepointoscar",
+          "url": "https://github.com/sharepointoscar"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "SharePointAce LLC",
+        "position": "Founder & Principal Consultant",
+        "website": "http://sharepointace.com",
+        "startDate": "2009-01-01",
+        "endDate": "2017-12-01",
+        "summary": "SharePointAce Consulting Group, LLC is a boutique shop focused on business productivity. We provide a personalized service to our clients and have several enterprise level engagements under our belts. Many of us previously were consultants at Microsoft Corp. In general we have over 16 years consulting background and building applications on the Microsoft Platform and integration of Microsoft Products and related technologies",
+        "highlights": [
+          "Consulting in Identity Management using Azure AD and Office 365",
+          "Best Practices and Guidance on customization of SharePoint deployed on-premises or Office 365",
+          "Expert guidance on integration, migrations, customization and deployment of SharePoiknt 2016 Platform on-premises or hybrid deployments"
+        ]
+      },
+      {
+      "company": "PNC Bank",
+      "position": "Sr. Cloud Architect & Developer",
+      "website": "http://www.pnc.com",
+      "startDate": "2017-02",
+      "endDate": "2017-04",
+      "summary": "In this role, was part of a strategic agile team to help this major bank get a small footprint into the cloud while helping formulate the broader vision for the majority of their internal applications",
+      "highlights": [
+        "Worked with internal IT Architects and team members to assess current infrastructure and enterprise applications as an initial step to formulate a technical cloud strategy",
+        "Demistified Microservices for the enterprise, and why use them as part of their journey to the cloud",
+        "Hand-picked top 3 internal applications based on specific criteria, as candidates for moving them to either Azure or AWS",
+        "Developed Azure an AWS diagrams depicting internal apps future state - all in cloud or hybrid approach",
+        "Demoed key cloud native features persuaded team on why these are appropriate to use for PNC specific needs",
+        "Introduced IT and internal Architects to Docker Containers, building, orchestration tools for management and production deployment",
+        "Demoed Continuous Integration and Continuous Delivery (CI/CD) on AWS and Azure clouds for apps being migrated to cloud",
+        "Setup cloud environment lab for testing POCs and scenarios in identity management and hybrid app scenarios"
+      ]
+    },
+    {
+    "company": "Bacardi",
+    "position": "Sr. Office 365 | Azure | SharePoint Architect",
+    "website": "http://www.bacardi.com",
+    "startDate": "2016-05",
+    "endDate": "2016-07",
+    "summary": "The Company sells in more than 160 global markets and operates 29 production facilities - for bottling, distilling and manufacturing - in 16 countries. Bacardi Limited refers to the Bacardi group of companies, including Bacardi International Limited. It is headquartered in Hamilton, Bermuda. As the lead Architect, I engaged on three major business initiatives while working directly with management level stakeholders:",
+    "highlights": [
+      "Office 365 Publishing Portals",
+      "SharePoint on-premises migration to SharePoint Online",
+      "Developed Azure an AWS diagrams depicting internal apps future state - all in cloud or hybrid approach",
+      "SharePoint Server 2016 Farm Design and Deployment"
+    ]
+  },
+  {
+  "company": "ZS Pharma, Inc.",
+  "position": "Sr. Office 365 | Azure | SharePoint Architect/Developer",
+  "website": "http://www.zspharma.com",
+  "startDate": "2015-11",
+  "endDate": "2017-04",
+  "summary": "ZS Pharma was founded in 2008, became a public company in 2014 and, in December 2015, joined the AstraZeneca Group. ZS Pharma is dedicated to challenging the status quo in disease states where therapeutic options have been limited. ZS Pharma is focused on using proprietary ion-trap technology to develop new treatments that are focused on addressing unmet needs in the medical community I worked side-by-side with te IT Director and other management level folks, providing strategic guidance and hands-on implementation of several initiativesiincluding:",
+  "highlights": [
+    "Setup and configure Jenkins to run app tests and share results",
+    "Integrated Jenkins with Github OAuth authentication",
+    "Deployed Dockerized NodeJS App to Azure Linux VM, secured it via HTTPS for client access.",
+    "Used Docker Compose to automate testing, build Docker Images on successful test results",
+    "AstraZeneca Office 365 tenant migration from ZS Pharma Office 365 Tenant, moving and mapping workloads and data to the new environment as per best practices",
+    "SharePoint 2016 hybrid environment, federated Azure AD idenities with Okta for SSO",
+    "Developed Python scripts to audit Dropbox User documents to be migrated to the cloud using DropBox for Business REST APIs",
+    "Developed NodeJS App using Azure AD OAuth authentication to leverage existing credentials, talks to third party REST API, leverages Azure WebJobs for scheduled API calls to both third party API and performing CRUD operations on SharePoint Online",
+    "Developed PowerShell custom scripts to hide departed organization users from SharePoint Online Address Book and People Search",
+    "Developed PowerShell scripts scheduled as Azure WebJobs for recurring data import into SPO/Office 365 which is then used in workflows and leverage metadata",
+    "Business Process Management (BPM) Development of Intranet custom modern forms which leverage the SharePoint REST API, HTML5 and the Office UI Fabric UI Framework (similar to Bootstrap) custom workflows for key business processes automation",
+    "Design and architecture of new SharePoint 2016 hybrid farm with Office 365"
+  ]
+  },
+  {
+  "company": "Microsoft Corporation",
+  "position": "Sr. Office 365/SharePoint Productivity Solutions Professional",
+  "website": "http://www.microsoft.com",
+  "startDate": "2016-01",
+  "endDate": "2016-09",
+  "summary": "The Technology Solution Professional (TSP) Business Productivity adds value to Microsoft by delivering the vision & customer value proposition around the Microsoft Information Worker platform, creating and progressing solution opportunity revenue and growing market share through new and/or leveraged investments in Microsoft technologies. Productivity is responsible for evangelizing Microsoft Productivity offerings with enterprise and corporate customers by supporting technical pre-sales activities. This includes influencing the sale, deployment and adoption of Office 365, Sharepoint, Exchange, Yamer, Office 365 Groups, Skype for Business and other Productivity workloads-which results in increased market share and revenue growth.",
+  "highlights": [
+    "Strong relationship with Microsoft Product Groups (Yammer, SharePoint, Office 365)",
+    "Successfully drive the win rate within assigned customer opportunities by delivering technical sales engagements such as technical briefings, product demos, proofs of concepts (POCs), and pilots.",
+    "Develop partner engagements that build the Office 365 opportunity pipeline and lead to the deployment of Productivity solutions.",
+    "The go-to technical expert on the sales team by maintaining and expanding personal technical readiness, competitive environment readiness, and sales and deployment lifecycle readiness.",
+    "Provide feedback to sales, marketing, and engineering on current and future product requirements and communicate competitive intelligence from the field.",
+    "Broad experience with and knowledge of modern enterprise architecture - enterprise-scale experience with cloud/on-premises/hybrid infrastructures, heterogeneous client OS & device environments, productivity solution architecture and design, and migrations - including Windows Server, Windows Azure, Active Directory, SQL Server, and other core technologies for Microsoft’s Productivity solutions.",
+    "Broad knowledge of key end-user scenarios and technical architecture for Office 365, Office 365 ProPlus, Exchange, SharePoint, Yammer, Lync, Project, Visio, and PowerBI.",
+    "Successfully position Microsoft products and services against competitive solutions by understanding enterprise customer needs, Microsoft Productivity offerings, and competitor product offerings."
+  ]
+  },
+  {
+  "company": "American Pacific Mortgage, Inc.",
+  "position": "Sr. SharePoint Architect | Project Manager | Developer",
+  "website": "http://www.apmortgage.com",
+  "startDate": "2015-08",
+  "endDate": "2016-01",
+  "summary": "Worked with IT Director to plan and execute an enterprise intranet based on a new SharePoint 2013 Farm deployment.  The work included UI/UX and taxonomy planning for the intranet, permissions and various business processes being automated.  In addition, we planned the SharePoint 2013 farm topology, security and backup and recovery.",
+  "highlights": [
+    "Capacity planning, hardware and logical farm topology design to support multiple branches across the nation. Worked with internal IT to train on maintaining the platform as well.",
+    "Planned, designed and deployed the corporate intranet which included the following activities:",
+    "Gather User and Business Requirements",
+    "Implement UI/UX and responsive deign branding",
+    "Plan Taxonomy (Terms and Content Types)",
+    "Plan Intranet Global Navigation using TermSets",
+    "Plan Site strcuture and permissions based on Active Directory",
+    "Planned and configured Business Intelligence for reporting and dashboards",
+    "Deployed as extranet for mobile access",
+    "Planned and executed training events for content authors in person and via short video training sessions."
+  ]
+  },
+  {
+  "company": "JDSU/Lumentum",
+  "position": "Sr. SharePoint | Office 365 Architect & Developer",
+  "website": "http://www.lumentum.com",
+  "startDate": "2015-03",
+  "endDate": "2015-08",
+  "summary": "As a result of JDSU’s recent spinoff Lumentum Holdings and Viavi called for splitting the various web properties. Many of these were legacy SharePoint intranets which needed to be migrated either on premise or to Office365 cloud.",
+  "highlights": [
+    "As the lead Architect, I was charged with the planning and execution of the SharePoint 2010 on-premies intranet to Office365 SharePoint Online. This was roughly a 2K licenses and part of a $1.5M engagement.",
+    "The project included Active Directory sync to migrate users from previous domain,branding and custom JS solutions.",
+    "My role also called for managing offshore resources for select development features, as well as working closely with the project manager to manage budget, timelines and client expectations."
+    ]
+  },
+  {
+  "company": "Kaiser Permanente",
+  "position": "Sr. SharePoint | Office 365 Architect & Developer",
+  "website": "http://www.lumentum.com",
+  "startDate": "2015-01",
+  "endDate": "2015-09",
+  "summary": "Responsible for technical strategy, and execution of a solution that allows the Digital Services Group to communicate at the executive level and provides the value propsoition and updates KP-wide.",
+  "highlights": [
+    "The solution included the implementation of Cross-Site Publishing with focus on responsive design and fully leveraging the social features of the SharePoint 2013 Platform.",
+    "This project is part of an $8M budget allocated to overhaul Kaiser’s “Experiences” and internal processes affecting most of their online properties and management of digital assets."
+    ]
+  },
+  {
+  "company": "Lifestreams",
+  "position": "Interim Director of Engineering/Architect/Developer",
+  "website": "",
+  "startDate": "2014-10",
+  "endDate": "2014-12",
+  "summary": "Responsible for technical strategy, architecture and execution of the Lifestreams REST API (the core product for this startup). Evaluated API Management major players such as 3Scale and Apigee, both from whom I’ve built relationships with and am quite familiar with the intricacies of their platforms; in terms of limitations, performance, cost and scalability.",
+  "highlights": [
+    "Lead the development of the REST API design (NodeJS, ExpressJS) hosted on AWS",
+    "Configured Proxies (oAuth, API Keys etc)",
+    "Designed and implemented the Swagger Specification, version controlled and automated the publishing to API Management Platform",
+    "Branding and configuration of the Developer Portal http://developer.lifestreams.com",
+    "Responsible for the design of the JS SDK, iOS SDK and Android SDK development and publishing as open source on github.com",
+    "Managing a team of 4 developers",
+    "Working directly with the CEO to ensure business objectives met as it relates to the core offering of Lifestreams."
+    ]
+  },
+  {
+  "company": "Cisco",
+  "position": "Full Stack Sr. Developer",
+  "website": "http://www.cisco.com",
+  "startDate": "2014-03",
+  "endDate": "2014-10",
+  "summary": "My role encompassed design and architecture of modern stack-based apps. We used the MEAN Stack and an onslot of various open source frameworks to achieve our business objectives.",
+  "highlights": [
+    "TalentExchange MEAN Stack App – an internal marketplace that helps democratize the ability to form social connections across Cisco employees. It is a place where managers can find talent, and people who want to form part of driving technology forward can participate in high visibility projects and build their project portfolio along the way. Some of the technologies used included: * NodeJS * AngularJS * CompoundJS (on top of ExpressJS) * jQuery, Bootstrap 3.0 * Git, Gerrit * MongoDB using Mongoose * MeanJS.org boilerplate used including its generators for client-side Services Controllers on the AngularJS side.",
+    "Innovus MEAN Stack App – a worldwide sales app used to manage sales and campaigns with a social and rewards layer. Built using the following technologies: * NodeJS * AngularJS * CompoundJS (on top of ExpressJS) * jQuery, Bootstrap 3.0 * Git, Gerrit * MongoDB using Mongoose"
+
+    ]
+  },
+  {
+  "company": "Yaskwawa America, Inc.",
+  "position": "Full Stack Sr. Developer",
+  "website": "https://www.yaskawa.com/",
+  "startDate": "2014-03",
+  "endDate": "2014-03",
+  "summary": "Yaskawa America, Inc. - Drives & Motion Division is the world's largest manufacturer of AC Inverter Drives, Servo and Motion Control, and Robotics Automation Systems.",
+  "highlights": [
+    "Worked directly with the Director of Product Development to understand the existing web application technologies",
+    "Modernized the motion control web interface for their product using Bootstrap 3.0 and related built-in JS components",
+    "Built fully functional prototype using NodeJS",
+    "Build admin dashboard using FlotJS (graphs), MomentJS and other JavaScript frameworks for the administrative console concept"
+
+    ]
+  },
+  {
+  "company": "Beats Music (Beats By Dr. Dre)",
+  "position": "Full Stack Software Engineer (launch contract)",
+  "website": "https://www.beatsmusic.com/",
+  "startDate": "2014-01",
+  "endDate": "2014-02",
+  "summary": "Beats Music by Dre is the new music streaming service recently launched and competing with Spotify, Pandora and others. I recently helped launch the product which is built on Node.js, Solr, CouchBase and other cutting edge technologies.",
+  "highlights": [
+    "Augmented web and mobile app functionality to enable modification of trial period for new user accounts, this included using Async.js for accomplishing various tasks in a given order",
+    "Enhanced the REST API to include new endpoints used by both mobile clients and internal admin apps.",
+    "Used TDD acceptance and unit testing using frameworks such as Mocha.js to maintain coverage at about 95%",
+    "Helped stabilize the product administrative UI (Bootstrap 3, Bower, Ember.js) and pushed feature update via Git. This included the development of an EmberJS Helper for a DatePicker and other custom components"
+    ]
+  },
+  {
+  "company": "Dsg.nr (my startup) – Community Driven Interior Design",
+  "position": "Co-founder & CTO",
+  "website": "",
+  "startDate": "2013-05",
+  "endDate": "2014-01",
+  "summary": "Designed the architecture and hand-picked the technology stack to develop a high performance, intelligent, visual search-driven app to help consumers visualize their interior design projects and interior designers to collaborate with clients. I’ve written multiple apps with various open source modules to achieve our business objectives. I used AWS EC2 Linux box and Heroku for cloud hosting, scaling and high availability.",
+  "highlights": [
+    "Implemented NodeJS crawler (scraper), parses DOM extracts and normalizes product metadata from major brand sites, adds entries MongoDB and simultaneously indexes in Elasticsearch (JSON-based Open Source) for instantenous search indexing capabilities",
+    "Implemented the initial BETA Preview of the Dsg.nr app",
+    "Uses Twitter Boostrap 3.0, HTML5, Canvas, Node.js, Express.js, Underscore.js, FabricJS MongoDB, JSON and many other cutting edge technologies",
+    "Implemented a REST API which handled social features, saving Design Boards and other capabilities",
+    "Uses PassportJS for Social Authentication * Facebook for oAuth authentication and signup * Google+ OAuth authentication and signup * Instagram OAuth authentication and signup",
+    "Apigee.com mobile Cloud backend",
+    "Implemented many features including the “Design Board” an HTML5 Canvas to allow consumers to drag, resize, crop, layer and add filters to images such as transparency. The Board allows for users to save and share their design via Facebook and Pinterest, get feedback from interior designers and purchase products.",
+    "Rich HTML Email notifications using UnderscoreJS Templates"
+    ]
+  },
+  {
+  "company": "ScImage, Inc.",
+  "position": "Lead Architect & Sr. Developer",
+  "website": "http://www.scimage.com/",
+  "startDate": "2013-02",
+  "endDate": "2014-05",
+  "summary": "Lead Architect & Sr. Developer – SharePoint 2007 to 2013 Intranet Migration + Custom .NET Features",
+  "highlights": [
+    "ScImage is an ISO 9001 & ISO 13485 company that delivers world class technologies, applications and services for the health imaging enterprise. Migrated their legacy Service Request ticketing system to SharePoint 2013.",
+    "Planned and executed a major migration from SP2007 to SP2013 directly",
+    "Assisted in mapping 2007 outdated customizations and translated them into either out of the box or custom components in the SharePoint 2013 Platform as per best practices and adherance to new platform APIs and Features",
+    "Implemented corporate-wide metadata and leveraged it within FAST Search on SharePoint 2013 including customizing Refiners, relevance, synonyms and advanced search features",
+    "Worked with Sr mangement to communicate with internal stakeholders during migration phase",
+    "Provided prescriptive guidane on other SharePoint 2013 platform features",
+    "Due to regulatory compliance, ensured all metadata was preserved during migration to allow for successful audits"
+
+    ]
+  },
+  {
+  "company": "Sierra Nevada Corporation",
+  "position": "Lead Architect & Sr. Developer – Secure Extranet",
+  "website": "http://www.scimage.com/",
+  "startDate": "2012-10",
+  "endDate": "2013-02",
+  "summary": "Sierra Nevada is an avionics engineering and manufacturing company in the public sector. I helped Sierra in multiple initiatives:",
+  "highlights": [
+    "Planned and executed multiple SharePoint Farms, sites and content consolidation",
+    "Established disaster recover, backup and recovery methodologies using best practices",
+    "Planned and executed a SharePoint 2007 extranet upgrade to SharePoint 2010 infrastructure, related technologies and farm topology",
+    "Developed SharePoint components which included custom WebParts, workflows, Event Receivers and a Project Management Solution which involved integrating Project Server 2010"
+    ]
+  }
+    ],
+    "volunteer": [
+      {
+        "organization": "Sustainable Lafayette",
+        "position": "Software Architect / Developer",
+        "website": "http://www.sustainablelafayette.org",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Provided my expertise to help conceptualize an app to encourage Lafayette residents to bike around town.  The iOS native app included mapping capabilities amongst other features.",
+        "highlights": [
+          ""
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Academy of Art University",
+        "area": "Foundational Art",
+        "studyType": "Bachelor",
+        "startDate": "1996-06-01",
+        "endDate": "2000-01-01",
+        "gpa": "",
+        "courses": [
+          "Illustration ",
+          "Digital Art"
+        ]
+      }
+    ],
+    "awards": [],
+    "publications": [
+      {
+        "name": "Pro SharePoint 2013 Branding & Responsive Web Development",
+        "publisher": "Apress",
+        "releaseDate": "2013-01-01",
+        "website": "https://www.amazon.com/Pro-SharePoint-2013-Responsive-Development/dp/1430250283/ref=sr_1_1?ie=UTF8&qid=1358014774&sr=8-1&keywords=sharepoint+responsive",
+        "summary": "Pro SharePoint 2013 Branding and Responsive Web Development is the definitive reference on the technologies, tools, and techniques needed for building responsive websites and applications with SharePoint 2013. The book focuses on solutions that provide the best browser experience for the myriad of devices, browsers, and screen orientations and resolutions"
+      },
+      {
+        "name": "Social Computing with Microsoft SharePoint 2007: Implementing Applications for SharePoint to Enable Collaboration and Interaction in the Enterprise (Wrox Programmer to Programmer)",
+        "publisher": "Wrox ",
+        "releaseDate": "2009-02-01",
+        "website": "https://www.apress.com/us/book/9781430250289",
+        "summary": "Use this book as part of your research for how you will implement any of the social computing applications, but also use online research for keeping updated on new changes to this exciting area of software today. Although social computing applications can be written on any framework or even on their own, we have taken a unique approach to help you understand the landscape of social computing as it relates to SharePoint 2007"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+          "HTML",
+          "HTML5",
+          "CSS",
+          "SASS"
+        ]
+      },
+      {
+        "name": "Identity Management",
+        "level": "Advanced",
+        "keywords": [
+          "Azure Active Directory",
+          "On-premises Active Directory",
+          "Okta"
+        ]
+      },
+      {
+        "name": "Search",
+        "level": "Advanced",
+        "keywords": [
+          "Elasticsearch",
+          "SharePoint Search",
+          "Amazon Cloud Search"
+        ]
+      },
+      {
+        "name": "Infrastructure",
+        "level": "Advanced",
+        "keywords": [
+          "PaaS",
+          "IaaS",
+          "On-premises",
+          "Hybrid Infrastructure"
+        ]
+      },
+      {
+        "name": "Templating Libraries",
+        "level": "Advanced",
+        "keywords": [
+          "MustacheJS",
+          "Jade",
+          "ExpressJS",
+          "UnderscoreJS"
+        ]
+      },
+      {
+        "name": "UI Frameworks",
+        "level": "Advanced",
+        "keywords": [
+          "Bootstrap",
+          "Office UI Fabric"
+        ]
+      },
+      {
+        "name": "Frameworks & Libraries",
+        "level": "Intermediate",
+        "keywords": [
+          "SailsJS",
+          "GruntJS",
+          "ExpressJS",
+          "AsyncJS",
+          "UnderscoreJS"
+        ]
+      },
+      {
+        "name": "Languages & Scripting",
+        "level": "Intermediate",
+        "keywords": [
+          "Objective-C",
+          "XML",
+          "XSL",
+          "XAML",
+          "Javascript",
+          "Ruby",
+          "Python",
+          "PowerShell",
+          "SQL",
+          "Bash",
+          "C# .NET",
+          "ASP .NET"
+        ]
+      },
+      {
+        "name": "Protocols",
+        "level": "Intermediate/Advanced",
+        "keywords": [
+          "HTTPS",
+          "WebDAV",
+          "Oauth",
+          "SSH",
+          "SOAP",
+          "REST",
+          "JSON"
+        ]
+      },
+      {
+        "name": "Automated Testing",
+        "level": "Intermediate",
+        "keywords": [
+          "Selenium",
+          "Mocha",
+          "Jasmine",
+          "Protractor",
+          "E2E",
+          "Unit Testing"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "level": "Intermediate/Advanced",
+        "keywords": [
+          "Codeship",
+          "Jenkins",
+          "Travis CI"
+        ]
+      },
+      {
+        "name": "Microservices / Containers",
+        "level": "Intermediate/Advanced",
+        "keywords": [
+          "Windows Containers",
+          "Docker",
+          "Docker Hub",
+          "Docker Cloud",
+          "Rancher",
+          "Linux",
+          "Kubernetes",
+          "Rancher",
+          "Minikube"
+        ]
+      },
+      {
+        "name": "Virtualization",
+        "level": "Intermediate/Advanced",
+        "keywords": [
+          "VirtualBox",
+          "VMWare",
+          "Hyper-V",
+          "HyperKit (used by Docker for Mac)"
+        ]
+      },
+      {
+        "name": "Databases",
+        "level": "Advanced",
+        "keywords": [
+          "MongoDB",
+          "SQL Server",
+          "Amazon RDS",
+          "mySQL",
+          "Azure SQL (managed cloud database service)"
+        ]
+      },
+      {
+        "name": "Platforms & Clouds",
+        "level": "Advanced",
+        "keywords": [
+          "Azure",
+          "Amazon AWS",
+          "OS X",
+          "Linux (various distributions i.e. Ubuntu, CentOS, Fedora)",
+          "iOS",
+          "Windows Phone Development",
+          "Apigee API Management",
+          "3Scale API Management"
+        ]
+      },
+      {
+        "name": "Creative & Design",
+        "level": "Advanced",
+        "keywords": [
+          "Adobe Photoshop",
+          "Adobe Fireworks",
+          "Balsamiq Mockups",
+          "Sketch for Mac",
+          "Visio 2016 diagraming"
+        ]
+      },
+      {
+        "name": "IDEs",
+        "level": "Advanced",
+        "keywords": [
+          "Webstorm",
+          "Atom",
+          "Visual Studio Code for Mac",
+          "Visual Studio 2015",
+          "XCode for iPhone App dev"
+        ]
+      },
+      {
+        "name": "Source Control",
+        "level": "Advanced",
+        "keywords": [
+          "Github",
+          "Git",
+          "Team Foundation Server",
+          "Visual Source Safe"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Proficient"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Skiing",
+        "keywords": [
+          "Groomers",
+          "Terrain Park Freestyle"
+        ]
+      },
+      {
+        "name": "Open Source",
+        "keywords": [
+          "MEANS",
+          "Boilerplate MEANS Stack project"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Erlich Bachman",
+        "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      }
+    ]
+  }

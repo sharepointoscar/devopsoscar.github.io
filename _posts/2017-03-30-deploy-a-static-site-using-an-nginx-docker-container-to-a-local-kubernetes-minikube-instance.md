@@ -4,6 +4,12 @@ published: false
 title: Deploy a simple static site using NGINX to a local Kubernetes Minikube instance - Part 1
 subtitle: A simple scenario to get acquainted with Kubernetes Minikube installed on your Macbook Pro (OS X)
 image: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSznYN_a65qO0L4mqFU3FUM4amxZMEDrI5zYY2PmYXonWM1g8br
+tags:
+- Kubernetes
+- Minikube
+- OS X
+- NGINX Container
+
 ---
 
 <p align="center">
@@ -132,4 +138,4 @@ VOLUME /etc/nginx
 
 # Access Your Site Via Browser
 
-# Conlusion
+# Conclusion
