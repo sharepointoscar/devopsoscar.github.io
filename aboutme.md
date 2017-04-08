@@ -4,7 +4,18 @@ title: Helo, I'm Oscar
 subtitle: A seasoned modern technical architect | developer | nice guy
 bigimg:
   - /img/platforms.png: I work on all platforms, yes I do ;)
+css: /css/love.css
 ---
+
+<div class="withLove">
+  <span class="alpha">I</span>
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="92px" height="72px" viewBox="0 0 92 72" enable-background="new 0 0 92 72" xml:space="preserve" class="heart">
+        <g>
+          <path fill="#010101" d="M82.32,7.888c-8.359-7.671-21.91-7.671-30.271,0l-5.676,5.21l-5.678-5.21c-8.357-7.671-21.91-7.671-30.27,0 c-9.404,8.631-9.404,22.624,0,31.255l35.947,32.991L82.32,39.144C91.724,30.512,91.724,16.52,82.32,7.888z"></path>
+        </g>
+      </svg>
+      <span class="omega"><br>Linux & Windows </span>
+</div>
 
   >You might be inclined to think **'Helo'** is a typo above.  Well I'm delighted to tell you, it is not :)
   It is an old mail server command and it is sent by a client to identify itself.  I hereby identify myself.
@@ -37,7 +48,7 @@ Most of my engagements are very challenging by nature and very diverse.  The cli
 Typically, I work along C level execs to understand their drivers and gather the troops, both internal and external - to execute on their vision and solve their business problems.  I like partnering with internal IT folks and have made many friends this way...
 
 # So What Am I? #
-My role can be that of a Sr. Architect or Sr. Project Manager as well as hands-on lead Developer, mentor and coder at all levels.  
+My role can be that of a Sr. Architect or Sr. Project Manager as well as hands-on lead Developer, mentor and coder at all levels.
 
 This effectively means that while I can give a presentation to a large audience, I can also talk shop with enterprise architects and other IT Pros while working on cloud and on-premises infrastructure.  In addition, I can partner with developers and code modern apps all as per best practices and using agile methodologies.
 
