@@ -6,7 +6,6 @@ bigimg:
   - /img/platforms.png: I work on all platforms, yes I do ;)
 css: /css/love.css
 ---
-
 <div class="withLove">
   <span class="alpha">I</span>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="92px" height="72px" viewBox="0 0 92 72" enable-background="new 0 0 92 72" xml:space="preserve" class="heart">

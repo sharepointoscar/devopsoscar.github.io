@@ -4,16 +4,16 @@ title: Now
 comments: true
 subtitle: Want to know what I am doing now?
 bigimg:
+  - /img/now_images/tahoma.png: Lost in Tahoma, California
   - /img/now_images/holdtherock.png: The Rock
   - /img/now_images/gfheader.png: 'I think in code sometimes, ok all the time!'
   - /img/now_images/sup.png: >-
       Summer is around the corner, and can't wait to take my board out on the
       lake.
-  - /img/now_images/s5.jpg: It's a beast!
+
   - /img/now_images/msuping.jpg: She's so fine!
   - /img/now_images/steeze.png: Working on my steeze
   - /img/now_images/art.jpg: I love photography
-  - /img/now_images/bluetooth.jpg: The Beast has bluetooth...
   - /img/now_images/fivelakes.png: Summer hikes with my girls
 share-img: /img/now_images/gfheader.png
 published: true

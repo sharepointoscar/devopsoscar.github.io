@@ -1,31 +1,60 @@
+node {
+nodejs(nodeJSInstallationName: 'NodeJS 7.7.4') {
+    currentBuild.result = "SUCCESS"
 
+    try {
 
-function Person(first, last, age, gender, interests,skills) {
+       stage('Checkout'){
+            checkout scm
+       }
 
-  // property and method definitions
-  this.age = age;
-  this.first_name = first;
-  this.last_name = last;
-  this.gender = gender;
-  this.interests = interests;
-  this.madSkills = skills;
+       stage ('Test'){
 
-  return this;
+         env.NODE_ENV = "test"
 
-};
+         print "Environment will be : ${env.NODE_ENV}"
 
-Person.prototype.Eat = function() {
-	console.log("I am eating, don't bother me!");
-};
+         sh 'node -v'
+         sh 'npm prune'
+         sh 'npm install'
+         sh 'bower install'
+         sh 'grunt build'
+         sh 'grunt mochaTest'
+       }
 
-Person.prototype.Ski= function(mph){
-	this.speed = mph || 60;
-	console.log("I feel the need, the need for speed, and by that I mean  "+this.speed+" miles per hour!");
-};
+       stage ('Build Docker') {
 
-var _skills = ['consulting','CI/CD','mobile apps','SharePoint','AWS','Azure Cloud','JSON','Git','Jekyll'];
-var _activities = ['skiing every weekend','chef cookbooks on my Macbook Pro','Jenkins CI for NodeJS','Docker Containers via Jenkins Pipelines'];
+         print"building application would happen here via executing a bash script"
+         sh './dockerBuild.sh'
+       }
 
-var oscar = new Person('Oscar', 'Medina', 21, 'male', _activities,_skills);
-console.log(oscar.Ski(100));
-console.log(oscar);
+       stage('Deploy') {
+
+         print"deploying application would happen here"
+         echo 'Push to Repo'
+         //sh './dockerPushToRepo.sh'
+
+         echo 'ssh to web server and tell it to pull new image'
+         //sh 'ssh deploy@xxxxx.xxxxx.com running/xxxxxxx/dockerRun.sh'
+
+       }
+
+       stage ('Cleanup'){
+
+         echo 'prune and cleanup'
+         sh 'npm prune'
+         sh 'rm node_modules -rf'
+
+       }
+
+    }
+    catch (err) {
+
+        currentBuild.result = "FAILURE"
+        print "project build error is here: ${env.BUILD_URL}"
+
+        throw err
+    }
+
+  }
+}
