@@ -10,7 +10,9 @@ tags:
 - Minikube
 - OS X
 - NGINX Container
-- Docker Registry Secrets
+- Docker Registry
+- Secrets
+- Docker Hub
 
 ---
 
@@ -24,7 +26,7 @@ This is Part 1 of 2 on a simple scenario that gets a little more complex and in-
 I do not go into details on installing or [what is Kubernetes Minikube](https://kubernetes.io) or provide exhaustive details on using the official NGINX Docker image, you can go [here](https://blog.docker.com/2015/04/tips-for-deploying-nginx-official-image-with-docker/) for that. The Linux Foundation also has a great course [here](https://training.linuxfoundation.org/linux-courses/system-administration-training/kubernetes-fundamentals).  Lastly,
   [Romin](https://rominirani.com/tutorial-getting-started-with-kubernetes-on-your-windows-laptop-with-minikube-3269b54a226) has a nice intro post if you are using Windows.
 
-This post focuses on quickly deploying a Service on Minikube by using a Docker Image I built, the [Github Repo](https://github.com/SharePointOscar/mynginx) contains all you need to build the image.  It contains a Dockerfile and a Jenkinsfile to which shows how to use the Jenkins Pipeline via Blue Ocean UI.  We then explore the **Kubernetes Dashboard**, lastly we access the deployed website via the browser on the host.
+This post focuses on quickly deploying a Service on Minikube by using a Docker Image I built, the [Github Repo](https://github.com/SharePointOscar/mynginx) contains all you need to build the image.  It contains a Dockerfile and a Jenkinsfile as well, which shows how to use the Jenkins Pipeline via Blue Ocean UI (yeah I love the new Jenkins UI).  We then explore the **Kubernetes Dashboard**, lastly we access the deployed website via the browser on the host.
 
 **Part 2** will focus on scaling the website by using a YAML file to specify your deployment and service.
 
