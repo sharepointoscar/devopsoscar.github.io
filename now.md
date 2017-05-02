@@ -20,12 +20,13 @@ published: true
 ---
 (This is a [now](http://nownownow.com/about) page, and if you have your own site, you should make one, too.)
 
-![Going to DockerCon 2017](http://i.imgur.com/oZswIvd.jpg)
+I had a really great time at DockerCon 2017 in Austin, I've been working on a short blog post to share my experience.
 
-## Last Minute Decision - Going to DockerCon 2017
-I've been pondering on this for a while, and finally decided to just go.  As an independent consultant is not always easy to have budget for these things but I believe is well worth the expense.
+## Getting ready for my China trip
+I'll be leaving this week, and will be somewhat disconnected.  I am looking forward to learning more about the culture and visiting historical places. I'll be sharing some pictures via this timeline.
 
-I am excited to attend and meet various folks I've interacted with via various channels.
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=15TcD9Sj6MvxB-TN2rqBh2ijaALmeh_4fPEhkwka9zE8&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+
 
 
 
