@@ -2,7 +2,7 @@
 
 url: http://sharepointoscar.github.io
 baseurl: ''
-title: All Things AWS | GCP | Azure | Kubernetes | Spinnaker | Linux
+title: All Things DevOps :: AWS | GCP | Azure | Kubernetes | Spinnaker | Linux
 description: In love with Linux way before Microsoft...
 navbar-links:
   About Me: aboutme
