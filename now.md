@@ -20,20 +20,24 @@ published: true
 ---
 (This is a [now](http://nownownow.com/about) page, and if you have your own site, you should make one, too.)
 
-I had a really great time at DockerCon 2017 in Austin, I've been working on a short blog post to share my experience.
+# Upcoming Book
+I've been busy editing my upcoming book [DevOps for SharePoint](https://www.amazon.com/DevOps-SharePoint-Terraform-Ansible-Vagrant/dp/1484236874/).  The premise of my book, is to teach the IT Pros new skills and leverage the open source tool-chains out there to deploy and manage SharePoint Farms.  I walk users through deployment of farms in both AWS and Azure.  We then go through how to configure the farm all via Ansible.
 
-## Getting ready for my China trip
-I'll be leaving this week, and will be somewhat disconnected.  I am looking forward to learning more about the culture and visiting historical places. I'll be sharing some pictures via this timeline.
+# Doing the DevSecOps Thing
+I've been working on a super exciting project; it is all about security first, and not as an afterthought.
 
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=15TcD9Sj6MvxB-TN2rqBh2ijaALmeh_4fPEhkwka9zE8&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+Helping an enterprise client secure cloud workloads in an automated fashion using tools like Terraform to provision the foundational networking cloud components.
+
+I then use Ansible to configure hundreds of NAT Rules, Policies, Objects.  In this project I've chosen CheckPoint Security Products.
+
+### Quick Stats:
+- 4 CheckPoint Management Servers across different Regions
+- 21 CheckPoint Gateways across different Azure Locations
+
+I'll be writing up a blog post soon on this...
 
 
 
-
-## Oh Hey! I published an Atom Theme - Working on a VS Code one...
-Somehow I managed to publish an Atom theme, great learning experience by the way.  But I was driven to just give back to the community, so I came up with a theme.  The them is called Franken Berry - you know the cereal that we no longer can enjoy?  I loved that cereal when I was a kid, so thought yeah, let's do it!
-
-You can install the theme via Atom or using the following command
 
 {% highlight bash %}
 	apm install franken-berry-syntax
@@ -42,11 +46,6 @@ You can install the theme via Atom or using the following command
 This is what it looks like
 ![Franken Berry Atom Theme](https://camo.githubusercontent.com/a3e749cfc0b2fd445db146f1faef3e8940a18d23/687474703a2f2f692e696d6775722e636f6d2f49697367786f582e706e67)
 
-## My daughter's last race for the season
-
-Someone once said, all good things must come to an end.  And ski season is fairly close to ending (or not?).  My daugher had her last race last weekend and podiumed again.  I'm a very proud dad, as you probably can tell ;)
-
-![Adriana Medaled Again](https://scontent.fsnc1-4.fna.fbcdn.net/v/t1.0-9/17362889_10212829359598850_6805280651450419424_n.jpg?oh=badb22afe592caed8bb0e2225d5ee07f&oe=595BD202)
 
 Hope you had a great week,
 Oscar
