@@ -37,15 +37,4 @@ I then use Ansible to configure hundreds of NAT Rules, Policies, Objects.  In th
 I'll be writing up a blog post soon on this...
 
 
-
-
-{% highlight bash %}
-	apm install franken-berry-syntax
-{% endhighlight%}
-
-This is what it looks like
-![Franken Berry Atom Theme](https://camo.githubusercontent.com/a3e749cfc0b2fd445db146f1faef3e8940a18d23/687474703a2f2f692e696d6775722e636f6d2f49697367786f582e706e67)
-
-
-Hope you had a great week,
 Oscar
