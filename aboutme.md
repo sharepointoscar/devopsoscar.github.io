@@ -61,7 +61,7 @@ Add to the mix - experience on two of the most popular enterprise clouds (AWS an
 
 # Publications #
 
-I am the author of two books on the market which focus on Microsoft SharePoint development and customization.
+I am the author of DevOps for SharePoint - a book that focuses on DevOps practices and using open source tool-chain for deploying SharePoint farms on premises or in AWS or Azure clouds.  The other two books focus on expert guidance for development and customization of SharePoint.
 
 Author |  Co-author | Contributor
 ------ | ---------- | -------------
