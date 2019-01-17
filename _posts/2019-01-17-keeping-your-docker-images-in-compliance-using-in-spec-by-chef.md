@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: Automate Compliance Using In-Spec
+title: Incorporate Compliance for Docker Images Using In-Spec
 subtitle: Keeping your Docker Images in Compliance using In-Spec by Chef!
 ---
 # Overview
