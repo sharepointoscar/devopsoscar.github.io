@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "I have a dream, that one day SharePoint will be Dockerized"
+title: "Leveraging Azure Key Vault when provisioning CheckPoint Gateways via ARM Templates"
 date: "2017-04-13 12:49:02 -0700"
 published: false
 tags:
-  - SharePoint Dockerized
-  - SharePoint Scalability
-  - Modern SharePoint Deployments
-  - SharePoint Kubernetes
-  - SharePoint Deployed to Azure Container Services
+  - Firewalls
+  - Azure
+  - CheckPoint
+  - ARM Templates
+  - Key Vault Secrets, Keys
 ---
 
 
