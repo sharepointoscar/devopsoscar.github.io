@@ -1,7 +1,8 @@
 ---
 layout: post
 published: false
-title: Keeping your Docker Images in Compliance using In-Spec by Chef
+title: Add Compliance to your CI/CD Pipeline using In-Spec
+subtitle: Keeping your Docker Images in Compliance using In-Spec by Chef!
 ---
 # Overview
 With Docker Images now being the golden standard for containarization and Microservices. We must start looking at maturing our CI/CD pipelines and take into account compliance by injecting vulerability and security checks into our dockerized apps.  But, how may we do that?
