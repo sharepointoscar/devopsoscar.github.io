@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: Add Compliance to your CI/CD Pipeline using In-Spec
+title: Automate Compliance Using In-Spec
 subtitle: Keeping your Docker Images in Compliance using In-Spec by Chef!
 ---
 # Overview
