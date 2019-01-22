@@ -1,31 +1,33 @@
 ---
 layout: post
-published: false
-title: Incorporate Compliance for Docker Images Using In-Spec
-subtitle: Keeping your Docker Images in Compliance using In-Spec by Chef!
+published: true
+title: Incorporate Compliance Testing Using In-Spec by Chef
+subtitle: Keeping Docker Images, Vagrant VMs, AWS EC2 Instances in Compliance using In-Spec by Chef!
 ---
 # Overview
-With Docker Images now being the golden standard for containarization and Microservices. We must start looking at maturing our CI/CD pipelines and take into account compliance by injecting vulerability and security checks into our dockerized apps.  But, how may we do that?
+With Docker Images now being the gold standard for containarization and Microservices. We must start looking at maturing our CI/CD pipelines and take into account compliance by injecting compliance checks into our dockerized apps.  But, how may we do that?
 
-# What is In-Spec?
-First, let's be clear on what In-Spec is.  Straight from the site:
+# Introducing Why In-Spec by Chef
+Not only is In-Spec open source, it is extremely powerful and can help you get Compliance tests into your CI/CD pipeline.  Straight from the site:
 
-> InSpec is a free and open-source framework for testing and auditing your applications and infrastructure. InSpec works by comparing the actual state of your system with the desired state that you express in easy-to-read and easy-to-write InSpec code. InSpec detects violations and displays findings in the form of a report, but puts you in control of remediation
-
+> InSpec is a free and open-source framework for testing and auditing your applications and infrastructure. InSpec works by comparing the actual state of your system with the desired state that you express in easy-to-read and easy-to-write InSpec code. InSpec detects violations and displays findings in the form of a report, but puts you in control of remediation  
+> -inspec.io
 
 # Scenario
-Let's say you've got a few Docker Containers that are instantiated from Images that are pulled from hub.docker.io  This of course, is the beauty of open source and sharing - we can use somemthing someone else has taken long hours to build, and we of course appreciate it.
 
-However, many times (no finger pointing), we may find ourselves using Docker Images that are not tested for vulnerability or compliance. 
+Let's say you've got a few Docker Containers that are instantiated from Images that are pulled from hub.docker.io  
 
-This of course, is very important especially if we work at an enterprise environment that is highly regulated.
+However, many times we may find ourselves using Docker Images that are not tested for vulnerability or compliance. 
 
-# One of Many Solutions
-On approach we can take (assuming using Docker Images from Docker Hub is acceptable), is to run CIS Benchmarks and DevSec Profiles against the image to ensure compliance.
+This becomes very important especially if we work at an enterprise environment that is highly regulated such as healthcare of finance.
 
-# Executing DevSec NGINX Baseline In-Spec Profile Against Docker Image
+# Solution
+One approach we can take (assuming using Docker Images from Docker Hub is acceptable), is to run CIS Benchmarks and DevSec Profiles against the image to ensure compliance.
 
-So how do we check any image and execute a CIS Benchmark at least?  We use the In-Spec Profiles available to us.  
+
+# Executing DevSec NGINX Baseline In-Spec Profile Against Docker Container
+
+So how do we check a Container?  We use the In-Spec Profiles available to us.  
 
 ## Find the In-Spec Profile Needed
 For example, we can check which ones are available by executing the following command which yields a large list of profiles, but the one we are using is shown below.
@@ -40,9 +42,9 @@ For example, we can check which ones are available by executing the following co
 ...
 ```
 ## Get a Docker Image from Docker Hub
-For this post, I have a common static site I use, which has a nice Twitter Bootstrap frontend, so I will use that.  I pull it using the following command:
+For this post, I have a common static site I use, which has a nice Twitter Bootstrap frontend, so I will use that.  It is also based from NGINX.     I pull it using the following command:
 
-### Pull Image
+### Pull Image From Docker Hub
 ```bash
 docker pull sharepointoscar/mystaticsite:v5
 ```
@@ -58,7 +60,7 @@ When we run this command, we can get the **Container ID**, which we will need to
 CONTAINER ID        IMAGE                             COMMAND                  CREATED             STATUS              PORTS                  NAMES
 173d0819f326        sharepointoscar/mystaticsite:v5   "nginx -g 'daemon of…"   21 minutes ago      Up 21 minutes       0.0.0.0:8080->80/tcp   MyStaticSite
 ```
-## Execute In-Spec Profile
+## Execute The NGINX Baseline In-Spec Profile
 Now that we know which profile we will use, we want to execute it against our Docker Image.
 
 Now that we have the Container ID from the previous command, we can execute the following to run our NGNIX baseline check 
@@ -69,6 +71,7 @@ inspec supermarket exec dev-sec/nginx-baseline -t docker://173d0819f326
 NOTE that we did not need to download the In-Spec profile, we simply provided the name to the `inspec` command.  
 
 Based on the results, we can see our NGINX Container has a lot of problems.
+
 
 ```bash
 Profile: DevSec Nginx Baseline (nginx-baseline)
@@ -247,8 +250,7 @@ Test Summary: 7 successful, 25 failures, 2 skipped
 ```
 We get a nice summary of our test, boy we have some work to do as 25 compliance tests failed!  Luckly, 7 were successfull :)
 
-## Running CIS Benchmark Against our Docker Container
-The Center for Internet Security’s (CIS) Docker 1.11.0 Benchmark is one effort to document a set of best practices for proper Docker host security configuration.  The problem is that, this is documented in a PDF.  Lucky for us, there is a project that allows us to use an `inspec profile` that contains the benchmarks for Docker
+## Running DevSec Linux Baseline In-Spec Profile Against our Docker Container
 
 Recall that we can find all profiles by executing:
 ```bash
@@ -435,3 +437,9 @@ Target:  docker://173d0819f326313757848014ae1c4d4117c5e70e57c95af97e4612c6f7fefb
 Profile Summary: 15 successful controls, 1 control failure, 38 controls skipped
 Test Summary: 53 successful, 3 failures, 38 skipped
 ```
+
+# Conclusion
+
+Hopefully you are able to see the value in injecting compliance tests into your CI/CD pipeline.  Although I did not show you how to specifically do that, you certainly now have an idea on what commands you might execute using `In-Spec` compliance framework.
+
+~Oscar
