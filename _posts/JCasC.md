@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Deploy Jenkins to your K8s cluster using a custom Docker image that uses Jenkins Configuration as Code (JCasC) 
 subtitle: Playing with Jenkins Configuration as Code locally
-image: 'https://sdtimes.com/wp-content/uploads/2018/02/inspec_logo-490x489.png'
+image: 'https://jenkins.io/images/logos/JCasC/JCasC.png'
 tags:
 - Docker
 - CI/CD Pipeline
