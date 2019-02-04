@@ -172,7 +172,7 @@ In my case, I go to the `http://192.168.64.12:30537/configuration-as-code/` page
 
 In my case, I changed the theme to another url in the `jenkins.yaml` and it showed me the new one!
 
-Simply but very powerful way of configuring Jenkins!~
+Simple but very powerful way of configuring Jenkins!
 
 # Conclusion
 
