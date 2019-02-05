@@ -105,7 +105,7 @@ To deploy all of our artifacts, we simply execute the following command from the
 >$ kubectl create -Rf ./gke
 ```
 
-This will create our namespace, services, persistent volume claim, and storage class amonst other artifacts.
+This will create our namespace, services, persistent volume claim, and storage class amongst other artifacts.
 
 Next, we need to create our `ConfigMap` which contains our `jenkins.yaml` configuration file, which the container reads as it is mounted as a volume.
 
