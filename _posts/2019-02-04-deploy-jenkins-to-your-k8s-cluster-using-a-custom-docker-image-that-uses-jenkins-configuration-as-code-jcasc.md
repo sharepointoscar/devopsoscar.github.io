@@ -61,7 +61,7 @@ Once you've cloned the GitHub repository, and you are on the root of the project
 
 **NOTE** you can use the `sharepointoscar/jcasc:v5` image already in place in Docker Hub.  But if you want to make your own, then please change the username/jcasc:version accordingly
 
-s
+
 ```bash
 docker build -t sharepointoscar/jcasc:v5 ./master
 ```
