@@ -12,6 +12,7 @@ tags:
   - Jenkins
   - JCasC
   - K8s
+  - GKE
 ---
 
 
@@ -41,7 +42,7 @@ Join the Jenkins Configuration as Code (JCasC) office hours meeting scheduled fo
 
 
 # The Jenkins Configurations
-There are two key configurations I decided to incorporate as a starting point, to demonstrate how that is done:
+There are two key configurations I decided to incorporate as a starting point, to demonstrate JCasC works:
 
 * **Branding Jenkins** - using the Simple Theme Plugin and specifying a Theme   because who likes the default UI???
 
@@ -53,10 +54,14 @@ There are two key configurations I decided to incorporate as a starting point, t
 * You have `kubectl` and `Minikube` working locally or a cluster in GKE and you're authenticated via the `gcloud` CLI.
 
 # Build the Jenkins Image & Push to Registry
-Most of the `YAML` files including the `docker-compose` use an image.  This image needs to be built and pushed to the registry, I use `Docker Hub`.
+Most of the `YAML` files including the `docker-compose` use an image.  This image needs to be built and pushed to the registry, I use `Docker Hub`.  The image we discuss on this post is `sharepointoscar/jcasc:v5` which is available to you as you follow this post.
 
 ## Building Image Using Docker CLI
-First, build the image, execute this command in the root of this repo as follows:
+Once you've cloned the GitHub repository, and you are on the root of the project on the terminal, build the image, execute this command in the root of this repo as follows:
+
+**NOTE** you can use the `sharepointoscar/jcasc:v5` image already in place in Docker Hub.  But if you want to make your own, then please change the username/jcasc:version accordingly
+
+s
 ```bash
 docker build -t sharepointoscar/jcasc:v5 ./master
 ```
@@ -89,6 +94,34 @@ Here is a snippet, replace the placeholder text with real values. You typically 
 ```env
 clientID=<CLIENTID>
 clientSecret=<CLIENTSECRET>
+```
+# Deploying JCasC to GKE
+Assuming you have a cluster setup, we are ready to quickly deploy our custom Jenkins image to GKE.
+
+## Deploy all artifacts to GKE
+To deploy all of our artifacts, we simply execute the following command from the root of the GitHub repo:
+
+```bash
+>$ kubectl create -Rf ./gke
+```
+
+This will create our namespace, services, persistent volume claim, and storage class amonst other artifacts.
+
+Next, we need to create our `ConfigMap` which contains our `jenkins.yaml` configuration file, which the container reads as it is mounted as a volume.
+
+```bash
+# creating the jcasc-configmap
+kubectl create configmap jcasc-configmap --from-file=./jenkins.yaml --namespace jcasc
+```
+Lastly, we need the GitHub app OAuth credentials stored as a `secret`, lets create it in our `jcasc` namespace as all resources are created in said namespace.
+
+```bash
+kubectl create secret generic github-auth --from-env-file=.env --namespace jcasc
+```
+Typically, the workload will be up and running at this point.  But if it not, I usually redeploy by executing the following command:
+
+```bash
+kubectl apply -f gke/gke-jenkins-deployment.yaml 
 ```
 
 # Deploy Jenkins using JCasC on your laptop running Docker
