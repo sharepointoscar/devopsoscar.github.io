@@ -12,13 +12,10 @@ tags:
   - GKE
 ---
 
-![Tekton in Action](/img/Tekton_JenkinsX.png)
-For a great intro to Cloud Native CI/CD with Jenkins X and Tekton Pipelines, checkout the [presentation here](https://www.infoq.com/presentations/cloud-native-ci-cd-jenkins-knative).
-
-Artwork depicts [@bobcatwilson](https://twitter.com/bobcatwilson) [@jdrawlings](https://twitter.com/jdrawlings).  
-
-# Overview
 On the first part of our multi-part post, I walk you through adding custom steps to a Tekton pipeline.  **Part 2** focuses on overriding some steps at specific stages.
+
+![Tekton in Action](/img/Tekton_JenkinsX.png)
+Artwork depicts [@bobcatwilson](https://twitter.com/bobcatwilson) [@jdrawlings](https://twitter.com/jdrawlings).  
 
 Jenkins X can be deployed using several topologies.  Two of the common ones are:
 
@@ -240,6 +237,8 @@ The next thing that happens, is that our change is now in our `staging` environm
 
 # Conclusion
 We have walked through the process of importing an existing app, putting it through initial CI/CD and then adding custom Tekton Pipeline Steps.  On our next post, we will go through **overriding** some or all of the steps.
+
+For a great intro to Cloud Native CI/CD with Jenkins X and Tekton Pipelines, checkout the [presentation here](https://www.infoq.com/presentations/cloud-native-ci-cd-jenkins-knative).
 
 More soon,
 
