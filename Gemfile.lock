@@ -170,11 +170,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (= 106)
+  github-pages
   jekyll-admin
   jekyll-mentions
   jekyll-paginate
   jemoji
 
 BUNDLED WITH
-   1.14.5
+   2.0.1
