@@ -47,6 +47,7 @@ Tekton pipelines are CRDs (Custom Resource Definitions) that run natively on Kub
 
 
 ![Tekton in Action](https://www.cloudbees.com/sites/default/files/tekton-jenkins_image.png)
+
 artwork by: [@ndeloof](https://twitter.com/ndeloof)
 
 | **CRD**   	|  **Description** 	|
@@ -104,6 +105,7 @@ The pipelines are triggered by Prow Jobs, and run via a Docker Container on Kube
 For this scenario, we have deployed Jenkins X using the Serverless Topology to GKE. 
 
 ![Serverless Jenkins X - Tekton Pipelines](https://www.cloudbees.com/sites/default/files/blog/capture_decran_2019-02-27_a_09.51.03.png)
+
 artwork by: [@ndeloof](https://twitter.com/ndeloof)
 
 using the following `jx` command:
