@@ -21,6 +21,7 @@ Jenkins X can be deployed using several topologies.  Two of the common ones are:
 
 1. **Static Jenkins** - which is used as the build controller
 2. **Serverless** - which uses Tekton Pipelines
+3. **Mixed** - In this topology, you add Jenkins as an `app` via `jx add app jx-app-jenkins` and can choose per app where the pipeline should run!
 
 We focus on the second topology on this multi-part post.  
 
@@ -46,6 +47,7 @@ Tekton pipelines are CRDs (Custom Resource Definitions) that run natively on Kub
 
 
 ![Tekton in Action](https://www.cloudbees.com/sites/default/files/tekton-jenkins_image.png)
+artwork by: [@ndeloof](https://twitter.com/ndeloof)
 
 | **CRD**   	|  **Description** 	|
 |	|	|
@@ -102,6 +104,7 @@ The pipelines are triggered by Prow Jobs, and run via a Docker Container on Kube
 For this scenario, we have deployed Jenkins X using the Serverless Topology to GKE. 
 
 ![Serverless Jenkins X - Tekton Pipelines](https://www.cloudbees.com/sites/default/files/blog/capture_decran_2019-02-27_a_09.51.03.png)
+artwork by: [@ndeloof](https://twitter.com/ndeloof)
 
 using the following `jx` command:
 
@@ -132,6 +135,14 @@ To import our existing NodeJS app, I will run the following command within the r
 
 {% highlight bash %}
 > $ jx import .
+{% endhighlight %}
+
+## Choosing Tekton or Static Jenkins Pipelines Per App
+If you are importing an app, and have a mix of static and serverless topologies.  You can disable the Tekton pipelines for a given app by modifying the chart for that app and changing the following:
+
+{% highlight yaml %}
+
+    knativeDeploy: false
 {% endhighlight %}
 
 A lot happens when I do this, amongst other things, the Helm Charts are added to my Github repository so that moving forward, my app is versioned and deployed using Helm.  Jenkins X also detects the language I am using, and it then selects a [Build Pack](https://jenkins-x.io/architecture/build-packs/), in my case it is the NodeJS one. 
