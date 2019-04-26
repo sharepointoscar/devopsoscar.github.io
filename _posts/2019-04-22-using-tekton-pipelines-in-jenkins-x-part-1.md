@@ -139,14 +139,6 @@ To import our existing NodeJS app, I will run the following command within the r
 > $ jx import .
 {% endhighlight %}
 
-## Choosing Tekton or Static Jenkins Pipelines Per App
-If you are importing an app, and have a mix of static and serverless topologies.  You can disable the Tekton pipelines for a given app by modifying the chart for that app and changing the following:
-
-{% highlight yaml %}
-
-    knativeDeploy: false
-{% endhighlight %}
-
 A lot happens when I do this, amongst other things, the Helm Charts are added to my Github repository so that moving forward, my app is versioned and deployed using Helm.  Jenkins X also detects the language I am using, and it then selects a [Build Pack](https://jenkins-x.io/architecture/build-packs/), in my case it is the NodeJS one. 
 
 ## First Time Pipeline Run
