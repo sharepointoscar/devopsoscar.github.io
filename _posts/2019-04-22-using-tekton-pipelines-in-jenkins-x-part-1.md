@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tekton Pipelines in Jenkins X - Part 1 Adding Custom Steps
-subtitle: Adding Tekton custom steps to a pipeline.
+subtitle: Adding custom steps to a Tekton pipeline.
 image: 'https://avatars0.githubusercontent.com/u/47602533?s=400&v=4'
 tags:
   - Docker
