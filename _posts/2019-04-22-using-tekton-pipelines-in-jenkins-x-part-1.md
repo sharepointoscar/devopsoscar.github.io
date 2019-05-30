@@ -240,6 +240,48 @@ if all looks good, then our next step is for a reviewer to approve the changes b
 
 The next thing that happens, is that our change is now in our `staging` environment.
 
+## Working with a Java Application
+On our post we focused on putting a **NodeJS** application through CI/CD.  Many folks use Java.  There aren't many differences in the process.  To show you how this may work, we will create a Java application based on the appropriate [Jenkins X QuickStart](https://jenkins-x.io/commands/jx_get_quickstarts/#jx-get-quickstarts)
+
+### Create a Java App based on a QuickStart
+To create our application, we execute the following command on our terminal.
+
+{% highlight bash %}
+ >$ jx create quickstart
+
+ Using Git provider GitHub at https://github.com
+? Git user name? sharepointoscar
+
+
+About to create repository  on server https://github.com with user sharepointoscar
+? Which organisation do you want to use? jenkins-oscar
+? Enter the new repository name:  javaApp
+
+
+Creating repository jenkins-oscar/javaApp
+? select the quickstart you wish to create spring-boot-http-gradle
+Generated quickstart at /Users/omedina/git-repos/javaApp
+### NO charts folder /Users/omedina/git-repos/javaApp/charts/spring-boot-http-gradle
+Created project at /Users/omedina/git-repos/javaApp
+
+The directory /Users/omedina/git-repos/javaApp is not yet using git
+? Would you like to initialise git now? Yes
+? Commit message:  Initial import
+
+Git repository created
+selected pack: /Users/omedina/.jx/draft/packs/github.com/jenkins-x-buildpacks/jenkins-x-kubernetes/packs/gradle
+
+modified the helm file: /Users/omedina/git-repos/javaApp/charts/javaapp/values.yaml
+replacing placeholders in directory /Users/omedina/git-repos/javaApp
+app name: javaapp, git server: github.com, org: jenkins-oscar, Docker registry org: jenkins-oscar
+skipping directory "/Users/omedina/git-repos/javaApp/.git"
+Pushed Git repository to https://github.com/jenkins-oscar/javaApp
+
+{% endhighlight  %}
+### Making Code Changes
+
+### Pipeline Runs
+
 # Conclusion
 We have walked through the process of importing an existing app, putting it through initial CI/CD and then adding custom Tekton Pipeline Steps.  On our next post, we will go through **overriding** some or all of the steps.
 
