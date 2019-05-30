@@ -211,6 +211,8 @@ In Part 2 of of the *Tekton Pipelines in Jenkins X* blog post series, we learned
 
 I hope you found this helpful.
 
+Do you want to ensure you don't miss posts like this?  [Sign up](https://jenkins-x.us7.list-manage.com/subscribe?u=d0c128ac1f69ba2bb20742976&id=84d053b0a0) for the Jenkins X Newsletter!
+
 More soon,
 
 @SharePointOscar
