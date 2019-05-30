@@ -3,6 +3,7 @@ layout: post
 title: Tekton Pipelines in Jenkins X - Part 2 Add Steps Before/After a Stage Lifecycle Or Build Your Own Pipeline
 subtitle: Override an entire pipeline | Append or prepend additional steps to a defined Stage. 
 image: 'https://avatars0.githubusercontent.com/u/47602533?s=400&v=4'
+share-img: http://sharepointoscar.com/img/tekton-part-2/tekton_append_steps_to_pipeline.png
 published: true
 author: Oscar Medina
 date: 2019-05-30
