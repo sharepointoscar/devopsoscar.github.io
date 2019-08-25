@@ -3,7 +3,7 @@ layout: post
 title: Install Jenkins X on a AKS Cluster using RBACK backed by Azure Active Directory
 subtitle: Helps manage access to cluster via Azure Active Directory identities. 
 
-image: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjn34qi9p7kAhXTrJ4KHYGwBDkQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.allaboutwindowssl.com%2F2019%2F05%2Fwindows-server-container-on-an-aks-azure-kubernetes-service-preview%2F&psig=AOvVaw0KPMQ52mdGQBEQpbZPoqAG&ust=1566853495182263'
+image: 'https://carlos.mendible.com/assets/img/posts/aks.png'
 published: true
 author: Oscar Medina
 date: 2019-08-25
@@ -69,7 +69,7 @@ Jenkins X installation completed successfully
 
         ********************************************************
 
-             NOTE: Your admin password is: GW~1efzkCm5FVgT0%e3G
+             NOTE: Your admin password is: <SOMELONGPASSWORDGOESHERE>
 
         ********************************************************
 
