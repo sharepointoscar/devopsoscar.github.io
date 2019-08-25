@@ -111,7 +111,7 @@ Now that the AKS cluster is enabled with RBAC, it is easy to manage permission a
 Ops folks who want to execute CLI commands against the cluster are dropped into a Role, and configure the CLI with their credentails.
 
 ### Special Thanks to Gearóid Gman Maguire
-Gearoid [asked via Twitter](https://twitter.com/gearoidmaguire/status/1165211816584261634?s=20) if this was possible and how one may go about it. So of course, curiosity kicked in immediately, and despite being the weekend, which I reserve for mostly outdoor activities, I just could not wait until Monday :)
+Gearoid [asked via Twitter](https://twitter.com/gearoidmaguire/status/1165211816584261634?s=20) if this was possible and how one may go about it. So of course, curiosity kicked in immediately and despite being the weekend (which I reserve for mostly outdoor activities), I just could not wait until Monday :)
 
 
 
