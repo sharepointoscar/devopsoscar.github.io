@@ -101,6 +101,9 @@ I am curious to see how easy it is to setup **SSO** for a give app being exposed
 I may try and create a simple app and test this scenario out.  Once I test it out, I'll do a follow up to this post.
 
 
+# Watch the Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DPGarcIBzOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Conclusion
 
 Now that the AKS cluster is enabled with RBAC, it is easy to manage permission at the cluster level.  This will restrict what users have access to and what they can execute against the cluster.
