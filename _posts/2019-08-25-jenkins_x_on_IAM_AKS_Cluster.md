@@ -87,7 +87,7 @@ At this point, we have Jenkins X installed on an AKS cluster.  We can verify thi
 
 # Managing Cluster Permissions
 The simplest way to manage the cluster permissions is via the [Auzure Portal](https://portal.azure.com), and selecting **Resource groups** >>
-**JenkinsXGroup** >> **AKSJenkinsXCluster** >> **Access Control (AIM)**
+**JenkinsXGroup** >> **AKSJenkinsXCluster** >> **Access Control (AIM)** (in my case)
 
 From there, you can add Active Directory Accounts into the appropriate **Role**.
 
