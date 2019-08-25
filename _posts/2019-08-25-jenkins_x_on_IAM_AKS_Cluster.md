@@ -96,7 +96,7 @@ In addition, you can check if an account has access.
 
 # Using SSO for apps deployed
 
-I am curious to see how easy it is to setup **SSO** for a give app being exposed in Jenkins X, or protecting the built-in endpoints.  Given the security settings of my cluster, and knowing that AAD can easily be used as an IdP, it would make sense.  There is also the [SSO Provider](https://github.com/jenkins-x/sso-operator) which can be used, appears to have a connector to AAD.
+I am curious to see how easy it is to setup **SSO** for a given app being exposed in Jenkins X, or protecting the built-in endpoints.  Given the security settings of my cluster, and knowing that AAD can easily be used as an IdP, it would make sense.  There is also the [SSO Provider](https://github.com/jenkins-x/sso-operator) which can be used, appears to have a connector to AAD.
 
 I may try and create a simple app and test this scenario out.  Once I test it out, I'll do a follow up to this post.
 
