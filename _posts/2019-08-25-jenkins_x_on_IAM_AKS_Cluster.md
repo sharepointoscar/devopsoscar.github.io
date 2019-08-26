@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Install Jenkins X on a AKS Cluster using RBAC backed by Azure Active Directory
-subtitle: Helps manage access to cluster via Azure Active Directory identities. 
+subtitle: Manage access to cluster via Azure Active Directory identities. 
 
 image: 'https://carlos.mendible.com/assets/img/posts/aks.png'
 published: true
