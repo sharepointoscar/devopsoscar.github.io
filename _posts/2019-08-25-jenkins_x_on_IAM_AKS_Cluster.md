@@ -3,7 +3,8 @@ layout: post
 title: Install Jenkins X on a AKS Cluster using RBAC backed by Azure Active Directory
 subtitle: Manage access to cluster via Azure Active Directory identities. 
 
-image: 'https://carlos.mendible.com/assets/img/posts/aks.png'
+image: '/img/AKS_JenkinsX_RBAC_AAD.png'
+share-img: /img/AKS_JenkinsX_RBAC_AAD.png
 published: true
 author: Oscar Medina
 date: 2019-08-25
@@ -17,6 +18,8 @@ tags:
   - Azure
   - Azure Active Directory (AAD)
 ---
+
+![AKS Cluster with AAD](/img/AKS_JenkinsX_RBAC_AAD.png)
 
 # Overview
 Jenkins X is a CI/CD platform that can be installed on the three leading clouds AWS, Azure and GCP.  Many companies already have Identity Management Systems, such as Azure Active Directory which is synched with their on-premises directory.
