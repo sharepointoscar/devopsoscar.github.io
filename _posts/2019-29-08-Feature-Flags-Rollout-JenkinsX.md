@@ -18,7 +18,7 @@ tags:
   - Feature Flags
 ---
 
-![Testing Features](/img/rollout-feature-flags-jenkins-x/hero-collaboration.png)
+![Testing Features](/img/rollout-feature-flags-jenkins-x/hero-collaboration .png)
 
 # Overview
 I believe any company that produces software, will always have the need to test if a new feature is working for their target audience.  We know that giants like Facebook do this, and they do it well.
@@ -144,6 +144,9 @@ console.log('------ Ok your app is listening on port 8080! -------- ');
 
 ```
 
+Here is the button being shown only in the staging environment.
+
+![Target Group](/img/rollout-feature-flags-jenkins-x/feature_flags_button.png)
 
 # Conclusion
 With this basic configuraton in place.   Our button will only now show when the app is running in the staging environment. This post merely scratches the surface of what is possible with Feature Flags.  I encourage you to explore releasing features in this manner.  
