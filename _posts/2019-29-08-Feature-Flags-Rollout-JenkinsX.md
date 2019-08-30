@@ -18,7 +18,7 @@ tags:
   - Feature Flags
 ---
 
-![Testing Features](/img/rollout-feature-flags-jenkins-x/hero-collaboration .png)
+![Testing Features](/img/rollout-feature-flags-jenkins-x/hero-collaboration.png)
 
 # Overview
 I believe any company that produces software, will always have the need to test if a new feature is working for their target audience.  We know that giants like Facebook do this, and they do it well.
