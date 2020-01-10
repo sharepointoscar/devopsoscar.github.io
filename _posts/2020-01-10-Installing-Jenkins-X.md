@@ -56,7 +56,7 @@ Operating System   Mac OS X 10.14.6 build 18G103
 
 3. If you are using a custom domain, execute the following command to create a GCP Cloud DNS Zone `jx create domain gke -d cjxd.sharepointoscar.com` (in my case).  
 
-4. Update jx-requirements.yaml **ingress** to use your custom domain, it should look similar to the following
+4. Update jx-requirements.yaml **ingress** to use your custom domain and enable TLS, it should look similar to the following
 
 	```bash 
 	gitops: true
