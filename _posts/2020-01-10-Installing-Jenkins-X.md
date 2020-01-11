@@ -109,5 +109,6 @@ I mentioend on the title, but what is it?
 > 																							-	Cloudbees
 
 You can use it to deploy it in large enterprise environments where change management is in place, and you want to have more control of the platform.  Learn how to easily install it at the [docs site](0https://docs.cloudbees.com/docs/cloudbees-jenkins-x-distribution/latest/).
+
 Cheers,
 [@SharePointOscar](https://twitter.com/SharePointOscar)
