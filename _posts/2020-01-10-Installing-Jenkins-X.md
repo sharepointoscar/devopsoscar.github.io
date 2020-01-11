@@ -102,5 +102,12 @@ Operating System   Mac OS X 10.14.6 build 18G103
 
 Congratulations, you now have a fully functional cluster!
 
+# What is CJXD?
+I mentioend on the title, but what is it?  
+
+> CloudBees Jenkins X Distribution provides a stable, predictable release line for teams building cloud native Kubernetes-based applications with Jenkins X. It comes battle tested and ready for production workloads with support and documentation vetted by CloudBees. As Jenkins X rapidly evolves, so will CloudBees Jenkins X Distribution with stability and reliability in the forefront.
+> 																							-	Cloudbees
+
+You can use it to deploy it in large enterprise environments where change management is in place, and you want to have more control of the platform.  Learn how to easily install it at the [docs site](0https://docs.cloudbees.com/docs/cloudbees-jenkins-x-distribution/latest/).
 Cheers,
 [@SharePointOscar](https://twitter.com/SharePointOscar)
