@@ -21,11 +21,11 @@ tags:
 ![Testing Features](/img/jenkins-x/jx-captain.png)
 
 # Overview
-Thought it'd be good to quickly show you how to get your Jenkins X cluster up and running using JX Boot and using the specific jx version below.  You'll also notice, I am using the Replicator App which is one of many you can use in this [repository](https://github.com/jenkins-x-apps), which helps keep secrets in sync between Kubernetes namespaces.
+Thought it'd be good to quickly show you how to get your Jenkins X cluster up and running using JX Boot and using the specific jx version below.  You'll also notice, I am using the Replicator App which is one of many you can use in this [repository](https://github.com/jenkins-x-apps).  The Replicator App helps you keep secrets in sync between Kubernetes namespaces.
 
 # Prerequisites
 
-To get started, you will need to do the following:
+To get started, you will need to have the following in place:
 
 1. A GCP account, with admin rights, or have the ability to create resources.
 2. Install `jx` binary.  On OS X, simply issue `brew install jenkins-x/jx/jx`.  For others take a [look here](https://jenkins-x.io/docs/getting-started/setup/install/).
