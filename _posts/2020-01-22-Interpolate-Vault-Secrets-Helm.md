@@ -27,7 +27,7 @@ If you have used Jenkins X, you know that [HashiCorp Vault](https://www.hashicor
 In this guide, I walk you through deploying the Cars REST API a [full-stack app with a backend in MongoDB](https://github.com/jenkins-oscar/cars-rest-api).  The repo branch titled **Vault-Secrets** is the one you want to look at.
 
 
-**TIP:**  With the recently annnounced tighter Vault integration with Kubernetes, there is actually a better way.  We can inject Vault secrets directly into pods and make them available.  My friend [Nick Jackson](https://twitter.com/sheriffjackson) explains how to do this on his post - [Dynamic Database Credentials with Vault and Kubernetes](https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes/)
+**TIP:**  With the recently announced tighter Vault integration with Kubernetes, there is actually a better way.  We can inject Vault secrets directly into pods and make them available.  My friend [Nick Jackson](https://twitter.com/sheriffjackson) explains how to do this on his post - [Dynamic Database Credentials with Vault and Kubernetes](https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes/)
 
 Nick and I will be showing you how to do this on *Jenkins X* very soon, so stay tuned!
 
@@ -38,7 +38,7 @@ Nick and I will be showing you how to do this on *Jenkins X* very soon, so stay 
 
 # 1. Creating Vault Secret
 
-The first thing you want to do, is create the Vault Secret.  Call it `mongodb` and add the following keys:
+The first thing you want to do is create the Vault Secret.  Call it `mongodb` and add the following keys:
 
 - mongodb-username
 - mongodb-password
@@ -53,7 +53,7 @@ To access the Vault instance in Jenkins X, you will need to first retrieve the c
 # copy the output to set env variables (yours are different of course)
 export VAULT_ADDR=https://vault.cjxd.sharepointoscar.com export VAULT_TOKEN=r.4bbbbbbbX4jDB4QOKoHDCid4Sxtk5v
 ```
-What we are doing is retrieving the configuration.  Then setting up Environment Variables (copy n paste them on your terminal).  If you thenexecute `env | grep VAULT` you will see the variables are set.
+What we are doing is retrieving the configuration.  Then setting up Environment Variables (copy n paste them on your terminal).  If you then execute `env | grep VAULT` you will see the variables are set.
 
 From the UI, follow the instructions to create a secret.  It should look something similar to the following:
 
@@ -63,9 +63,9 @@ From the UI, follow the instructions to create a secret.  It should look somethi
 # 2. Modify the Environment Repo (Staging)
 
 **NOTE**
-Though I am told that you can accomplish secret interpolation by setting this at the app level only, I have not tried it and so I want you to also include this on your target environment where the app is being deployed.  In my case it is *Staging*.  Take a look at the actual [file in my repo](https://github.com/jenkins-oscar/environment-whiskeysour-staging/blob/master/env/values.tmpl.yaml).  
+Though I am told that you can accomplish secret interpolation by setting this at the app level only, I have not tried it and so I want you to also include this on your target environment where the app is being deployed.  In my case, it is *Staging*.  Take a look at the actual [file in my repo](https://github.com/jenkins-oscar/environment-whiskeysour-staging/blob/master/env/values.tmpl.yaml).  
 
-- You will want to checkout the file located at `env/values.yaml` (this file can be empty based on my experience, later gets populated again)
+- You will want to check out the file located at `env/values.yaml` (this file can be empty based on my experience, later gets populated again)
 
 - You will want to create a new file, name it `env/values.tmpl.yaml`.  The file should look like the sample code below.  At the bottom is where I add my app secrets and set them as *environment variables* for the *Staging* environment.
 
@@ -136,7 +136,7 @@ charts
 
 ##  The requirements.yaml changes
 
-First we must add the dependencies to the main chart.  There is nothing new here, we add the MongoDB dependency to our chart using Helm standard approach, which is by modifying the `requirements.yaml` as shown below.
+First, we must add the dependencies to the main chart.  There is nothing new here, we add the MongoDB dependency to our chart using Helm standard approach, which is by modifying the `requirements.yaml` as shown below.
 
 ```yaml
 dependencies:
@@ -151,7 +151,7 @@ dependencies:
  Next, we modify `values.yaml` and add to the `env:` variables as well as the `mongoDB` dependency, which I've aliased as `cars-rest-api-db` (shown on `requirements.yaml` above) 
  
 
- **NOTE:** It is important to notice that the reference to the Vault keys within the MongoDB chart parameters is within double quotes.  Took me **4 full days to realize this issue and I grew more gray hair for sure.**
+ **NOTE:** It is important to notice that the reference to the Vault keys within the MongoDB chart parameters is within double-quotes.  Took me **4 full days to realize this issue and I grew more gray hair for sure.**
 
 ## The values.yaml changes
  The `values.yaml` file should look like this.
@@ -166,7 +166,7 @@ env:
 
 # MongoDB Configuration
 cars-rest-api-db:
-  ## Whether to deploy a mongodb server to satisfy the applications database requirements.
+  ## Whether to deploy a mongodb server to satisfy the application database requirements.
   ## To use an external database set this to false and configure the externaldb parameters
   enabled: true
 
@@ -191,8 +191,8 @@ cars-rest-api-db:
 
  ```
 
-## The Preview Chart Canges
- For the Preview chart, we modify two files.  The `values.yaml` and the `requirements.yaml`, very similar changes.  However we name things differently.
+## The Preview Chart Changes
+ For the Preview chart, we modify two files.  The `values.yaml` and the `requirements.yaml`, very similar changes.  However, we name things differently.
 
  On the `requirements.yaml` we alias the MongoDB as `preview-db` and make sure we add it below the existing dependencies, BUT before the `preview` chart definition as shown below.
 
@@ -223,7 +223,7 @@ cars-rest-api-db:
 The `values.yaml` file contains the same environment variables as the main chart.
 
 
-**NOTE:** It is important to notice that the reference to the Vault keys within the MongoDB chart parameters is within double quotes.  Took me **4 full days to realize this issue and I grew more gray hair for sure.**
+**NOTE:** It is important to notice that the reference to the Vault keys within the MongoDB chart parameters is within double-quotes.  Took me **4 full days to realize this issue and I grew more gray hair for sure.**
 
 
  ```yaml
@@ -263,7 +263,7 @@ preview-db:
  ```
 
 # Summary
-On this post we walked through the required steps to ensure you are able to retrieve and interpolate Vault secrets within your custom app being put through CI/CD in Jenkins X.
+On this post, we walked through the required steps to ensure you are able to retrieve and interpolate Vault secrets within your custom app being put through CI/CD in Jenkins X.
 
 Here is the video of the webinar session where I show it in action.
 
