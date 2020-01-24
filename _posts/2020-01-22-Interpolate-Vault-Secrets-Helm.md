@@ -263,7 +263,7 @@ preview-db:
  ```
 
 # Summary
-On this post we walked through the required steps to ensure you are able to retrieve and interpolate Vault secrets within your custom app being put through CI/CD in Jenmins X.
+On this post we walked through the required steps to ensure you are able to retrieve and interpolate Vault secrets within your custom app being put through CI/CD in Jenkins X.
 
 Here is the video of the webinar session where I show it in action.
 
