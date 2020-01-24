@@ -26,7 +26,8 @@ If you have used Jenkins X, you know that [HashiCorp Vault](https://www.hashicor
 
 In this guide, I walk you through deploying the Cars REST API a [full-stack app with a backend in MongoDB](https://github.com/jenkins-oscar/cars-rest-api).  The repo branch titled **Vault-Secrets** is the one you want to look at.
 
-TIP:  With the recently annnounced tighter Vault integration with Kubernetes, there is actually a better way.  We can inject Vault secrets directly into pods and make them available.  My friend [Nick Jackson](https://twitter.com/sheriffjackson) explains how to do this on his post - [Dynamic Database Credentials with Vault and Kubernetes](https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes/)
+
+**TIP:**  With the recently annnounced tighter Vault integration with Kubernetes, there is actually a better way.  We can inject Vault secrets directly into pods and make them available.  My friend [Nick Jackson](https://twitter.com/sheriffjackson) explains how to do this on his post - [Dynamic Database Credentials with Vault and Kubernetes](https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes/)
 
 Nick and I will be showing you how to do this on *Jenkins X* very soon, so stay tuned!
 
