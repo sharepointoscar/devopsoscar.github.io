@@ -84,6 +84,12 @@ defaults:
   values:
     layout: page
     show-avatar: true
+- scope:
+    path: '/presentations'
+  values:
+    layout: page
+    show-avatar: true
+    
 link-tags: false
 exclude:
 - Gemfile
