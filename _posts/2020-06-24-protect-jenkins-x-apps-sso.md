@@ -23,14 +23,16 @@ tags:
 ![Testing Features](/img/ambassador/ambassador_jenkins_x.png)
 
 # Overview
-Microservice orchestrated by Kubernetes sometimes need not be public facing.  
+Microservice orchestrated by Kubernetes sometimes need not be public-facing.  
 
-There are many options to secure an end point, however, in this post we walk through configuring [Datawire's Ambassador Edge Stack](https://getambassador.io) to protect an app which has been put through CI/CD and published via Jenkins X.  We enable SSO to leverage existing identitiy management using Azure Active Directory all in AWS and EKS.
+There are many options to secure an endpoint, however, in this post we walk through configuring [Datawire's Ambassador Edge Stack](https://getambassador.io) to protect an app which has been put through CI/CD and published via Jenkins X.  We enable SSO to leverage existing identity management using Azure Active Directory all in AWS and EKS.
 
-In this post I also walk you through installing Jenkins X on AWS EKS first, then installing and configuring Ambassador.  Of course, if you have a **Jenkins X** cluster already, you can skip to the **Setup Ambasador Edge Stack** section.
+I also walk you through installing Jenkins X on AWS EKS first, then installing and configuring Ambassador.  Of course, if you have a **Jenkins X** cluster already, you can skip to the **Setup Ambassador Edge Stack** section.
+
+**GitHub Repo**: You can [clone](https://github.com/jenkins-oscar/skiapp/tree/ambassador-annotations) the repo specific branch.
 
 # Create EKS Cluster
-For this scenario we will use AWS EKS
+For this scenario, we will use AWS EKS
 
 Create an EKS cluster using `eksctl` using the following command
 
@@ -141,7 +143,7 @@ The cluster configuration repository is cloned immediately.  This repository wil
 
 
 
-# Setup Ambasador Edge Stack
+# Setup Ambassador Edge Stack
 
 To setup Ambassador, you can follow the simple instructions on their wonderful [Docs site](https://www.getambassador.io/docs/latest/topics/install/).
 
