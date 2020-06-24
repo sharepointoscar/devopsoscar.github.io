@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Securing Apps Deployed via Jenkins X Using Ambassador
+title: Securing Apps Deployed via Jenkins X Using Ambassador Edge Stack
 subtitle: Use Azure Active Directory to enable your employees to use existing domain credentials via Single-Sign-On
 
 image: '/img/ambassador/ambassador_logo.png'
@@ -25,7 +25,7 @@ tags:
 # Overview
 Microservice orchestrated by Kubernetes sometimes need not be public facing.  
 
-There are many options to secure an end point, however, in this post we walk through configuring [Datawire's Ambassador Gateway](https://getambassador.io) to protect an app which has been put through CI/CD and published via Jenkins X.  We enable SSO to leverage existing identitiy management using Azure Active Directory all in AWS and EKS.
+There are many options to secure an end point, however, in this post we walk through configuring [Datawire's Ambassador Edge Stack](https://getambassador.io) to protect an app which has been put through CI/CD and published via Jenkins X.  We enable SSO to leverage existing identitiy management using Azure Active Directory all in AWS and EKS.
 
 In this post I also walk you through installing Jenkins X on AWS EKS first, then installing and configuring Ambassador.  Of course, if you have a **Jenkins X** cluster already, you can skip to the **Setup Ambasador Edge Stack** section.
 
